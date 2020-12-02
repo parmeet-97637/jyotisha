@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201202114948
+SEQUENCE:20201202142105
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -23176,8 +23176,8 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<b
  r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
- master/mahApuruSha/general/lunar_month/tithi/07/30/vikramAditya-paTTAbhiSE
- kaH__info.toml)<br/>- Tags: MahapurushaEvents
+ master/mahApuruSha/xatra/lunar_month/tithi/07/30/vikramAditya-paTTAbhiSEka
+ H__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26942,6 +26942,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:स्ह्रद्धानन्द-हत्या
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201223T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201224T000000
+DESCRIPTION:Observed on day 23 (sunrise (default)/puurvaviddha (default)).
+   <br/>Swami shraddhananda\, who brought back lakhs of muslims to the deva
+ -dharma\, was shot to death by Abdul Rashid.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__info.toml)<b
+ r/>- Tags: MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वायिलार् नायऩार् (४९) गुर
  ुपूजै
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201223T000000
@@ -27285,6 +27303,24 @@ SUMMARY:सोममृगशीर्ष-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201228T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201229T000000
 DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:स्हिवराजॆण रुस्तम्-जमान
+ ॊ ध्वस्तः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201228T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201229T000000
+DESCRIPTION:Observed on day 28 (sunrise (default)/puurvaviddha (default)).
+   <br/>Shivaji defeated Rustam-i Zaman in an epic battle fought near Kolha
+ pur.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/28/
+ shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
