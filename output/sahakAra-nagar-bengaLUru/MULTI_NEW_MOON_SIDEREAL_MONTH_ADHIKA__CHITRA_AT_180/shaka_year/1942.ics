@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201202165153
+SEQUENCE:20201202211221
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -72,7 +72,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:व्यञ्जुली महाद्वादशी
+SUMMARY:व्यञ्जुली-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200320T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200321T000000
 DESCRIPTION:Dvadashi tithi\, which is present at sunrise on two consecutiv
@@ -235,7 +235,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वारुणी त्रयोदशी
+SUMMARY:वारुणी-त्रयोदशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200322T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200323T000000
 DESCRIPTION:Phalguna Krishna Chaturdashi\, combined with Shatabhishak Naks
@@ -292,7 +292,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६५ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६५ जगद्गुरु श्री-
  सुदर्शन महादेवेन्द्र सरस्व
  ती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200323T000000
@@ -315,7 +315,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (रैवतः [५])
+SUMMARY:मन्वादिः-(रैवतः-[५])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200323T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200324T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
@@ -448,7 +448,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १५ जगद्गुरु श्री 
+SUMMARY:काञ्ची १५ जगद्गुरु श्री-
  गङ्गाधरेन्द्र सरस्वती आराध
  ना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
@@ -471,7 +471,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २७ जगद्गुरु श्री 
+SUMMARY:काञ्ची २७ जगद्गुरु श्री-
  चिद्विलासेन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
@@ -493,7 +493,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५२ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५२ जगद्गुरु श्री-
  शङ्करानन्देन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
@@ -606,7 +606,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आन्दोलन तृतीया
+SUMMARY:आन्दोलन-तृतीया
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
@@ -661,7 +661,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:झूलेलाल जयन्ती
+SUMMARY:झूलेलाल-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Caitraḥ (lunar) month 
@@ -718,7 +718,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गौरी तृतीया/सौभाग्य-गौरी
+SUMMARY:गौरी-तृतीया/सौभाग्य-गौरी
  -व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200328T000000
@@ -737,7 +737,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (उत्तमः [३])
+SUMMARY:मन्वादिः-(उत्तमः-[३])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200328T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
@@ -946,7 +946,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुत्तुस्वामी दीक्षित जय
+SUMMARY:मुत्तुस्वामी-दीक्षित-जय
  न्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200329T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200330T000000
@@ -1098,7 +1098,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:यमुना जयन्ती
+SUMMARY:यमुना-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200330T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200331T000000
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Caitraḥ (lunar) mo
@@ -1337,7 +1337,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४३ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४३ जगद्गुरु श्री-
  आनन्दघनेन्द्र सरस्वती आराध
  ना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200402T000000
@@ -1392,7 +1392,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महातारा जयन्ती
+SUMMARY:महातारा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200402T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200403T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (m
@@ -1753,7 +1753,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तुलसी-जननं क्षीरसागरतः
+SUMMARY:तुलसी-जननं-क्षीरसागरतः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200406T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Caitraḥ (lunar) month
@@ -1981,7 +1981,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (रौच्यः [१३])
+SUMMARY:मन्वादिः-(रौच्यः-[१३])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200407T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (a
@@ -2016,7 +2016,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200407T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
@@ -2204,7 +2204,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -2222,7 +2222,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री हनूमत् जयन्ती
+SUMMARY:श्री-हनूमत्-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (s
@@ -2279,7 +2279,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६० जगद्गुरु श्री 
+SUMMARY:काञ्ची ६० जगद्गुरु श्री-
  अद्वैतात्मप्रकाशेन्द्र सर
  स्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
@@ -2302,7 +2302,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री जये
+SUMMARY:काञ्ची जगद्गुरु श्री-जये
  न्द्र सरस्वती आश्रम-स्वीका
  र-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
@@ -2502,7 +2502,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:लक्ष्मी-वराह जयन्ती
+SUMMARY:लक्ष्मी-वराह-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200412T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200413T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
@@ -2603,7 +2603,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मेष-सङ्क्रान्तिः (शार्वर
+SUMMARY:मेष-सङ्क्रान्तिः-(शार्वर
  ी-संवत्सरः)
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200414T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200415T000000
@@ -2715,7 +2715,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५६ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५६ जगद्गुरु श्री-
  सर्वज्ञ सदाशिव बोधेन्द्र स
  रस्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200415T000000
@@ -2905,7 +2905,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वल्लभाचार्य जयन्ती
+SUMMARY:वल्लभाचार्य-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200418T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
@@ -2971,7 +2971,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पक्षवर्धिनी महाद्वादशी
+SUMMARY:पक्षवर्धिनी-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
 DESCRIPTION:Dvadashi tithi\, which is followed by an अमावास्
@@ -3029,7 +3029,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मत्स्य जयन्ती
+SUMMARY:मत्स्य-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200421T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
@@ -3046,7 +3046,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रमण महर्षि आराधना
+SUMMARY:रमण-महर्षि-आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200421T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (solar)
@@ -3262,7 +3262,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४७ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४७ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ३
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200422T000000
@@ -3419,7 +3419,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पराशर महर्षि जयन्ती
+SUMMARY:पराशर-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200424T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) mo
@@ -3569,7 +3569,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:परशुराम जयन्ती
+SUMMARY:परशुराम-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
@@ -3593,7 +3593,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्यामा शास्त्री जयन्ती
+SUMMARY:श्यामा-शास्त्री-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DESCRIPTION:Observed on Kṛttikā nakshatra of Meṣaḥ (solar) month (p
@@ -3649,7 +3649,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बगलामुखी जयन्ती
+SUMMARY:बगलामुखी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200427T000000
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Vaiśākhaḥ (lunar) mo
@@ -3667,7 +3667,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बलराम जयन्ती
+SUMMARY:बलराम-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200427T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
@@ -3702,7 +3702,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:राज-मातङ्गी जयन्ती
+SUMMARY:राज-मातङ्गी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200427T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
@@ -3877,7 +3877,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सूरदास जयन्ती
+SUMMARY:सूरदास-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200428T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200429T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -3930,7 +3930,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शङ्कर जयन्ती
+SUMMARY:शङ्कर-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200428T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200429T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -4002,7 +4002,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४० जगद्गुरु श्री 
+SUMMARY:काञ्ची ४० जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती २ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200429T000000
@@ -4025,7 +4025,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रामानुज जयन्ती
+SUMMARY:रामानुज-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200429T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
@@ -4116,7 +4116,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २६ जगद्गुरु श्री 
+SUMMARY:काञ्ची २६ जगद्गुरु श्री-
  प्रज्ञाघनेन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
@@ -4139,7 +4139,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्यागराज जयन्ती
+SUMMARY:त्यागराज-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200501T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
@@ -4157,7 +4157,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विद्यारण्य-स्वामी जयन्त
+SUMMARY:विद्यारण्य-स्वामी-जयन्त
  ी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200501T000000
@@ -4293,8 +4293,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नॆरूर् श्री सदाशिव ब्रह्
- मेन्द्र आराधना
+SUMMARY:नॆरूर्-श्री-सदाशिव-ब्रह्
+ मेन्द्र-आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200502T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
@@ -4312,7 +4312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पुरी गोवर्धन-मठ-प्रतिष्ठ
- ापन जयन्ती
+ ापन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200502T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
@@ -4369,7 +4369,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वसिष्ठ महर्षि जयन्ती
+SUMMARY:वसिष्ठ-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200502T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
@@ -4426,7 +4426,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:निमिषाम्बा जयन्ती
+SUMMARY:निमिषाम्बा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
@@ -4479,7 +4479,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री वासवी जयन्ती
+SUMMARY:श्री-वासवी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
@@ -4552,7 +4552,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुध जयन्ती
+SUMMARY:बुध-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Vaiśākhaḥ (lunar) m
@@ -4666,7 +4666,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रिस्पर्शा महाद्वादशी
+SUMMARY:त्रिस्पर्शा-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
 DESCRIPTION:Dvadashi tithi\, which starts after sunrise on a day and ends 
@@ -4826,7 +4826,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चित्रा पूर्णिमा
+SUMMARY:चित्रा-पूर्णिमा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200506T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Meṣaḥ (solar) month (m
@@ -4865,7 +4865,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३९ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३९ जगद्गुरु श्री-
  सच्चिद्विलासेन्द्र सरस्वत
  ी आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200506T000000
@@ -4906,7 +4906,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नृसिंह जयन्ती
+SUMMARY:नृसिंह-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200506T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
@@ -4923,7 +4923,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200506T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
@@ -4983,7 +4983,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अन्नमाचार्य जयन्ती
+SUMMARY:अन्नमाचार्य-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -5019,7 +5019,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:छिन्नमस्ता जयन्ती
+SUMMARY:छिन्नमस्ता-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -5038,7 +5038,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची कामकोटि-मठ-प्रतिष
- ्ठापन जयन्ती
+ ्ठापन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -5057,7 +5057,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -5153,7 +5153,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शरभ जयन्ती
+SUMMARY:शरभ-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -5248,7 +5248,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नारद जयन्ती
+SUMMARY:नारद-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200509T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200510T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Vaiśākhaḥ (luna
@@ -5328,7 +5328,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३० जगद्गुरु श्री 
+SUMMARY:काञ्ची ३० जगद्गुरु श्री-
  बोधेन्द्र सरस्वती २ आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200510T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200511T000000
@@ -5389,7 +5389,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कश्यप महर्षि जयन्ती
+SUMMARY:कश्यप-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200511T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200512T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Vaiśākhaḥ (luna
@@ -5424,7 +5424,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सती अनसूया जयन्ती
+SUMMARY:सती-अनसूया-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200511T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200512T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Vaiśākhaḥ (luna
@@ -5647,7 +5647,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ७ जगद्गुरु श्री आ
+SUMMARY:काञ्ची ७ जगद्गुरु श्री-आ
  नन्दज्ञानेन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200515T000000
@@ -5788,7 +5788,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भद्रकाळी जयन्ती
+SUMMARY:भद्रकाळी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200518T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200519T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Vaiśākhaḥ (lun
@@ -5997,7 +5997,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३ जगद्गुरु श्री स
+SUMMARY:काञ्ची ३ जगद्गुरु श्री-स
  र्वज्ञात्मेन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200521T000000
@@ -6183,7 +6183,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शनि जयन्ती
+SUMMARY:शनि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200522T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200523T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
@@ -6201,7 +6201,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शुक महर्षि जयन्ती
+SUMMARY:शुक-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200522T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200523T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
@@ -6390,7 +6390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी ३२ जगद्गुरु श्र
- ी नृसिंह भारती आराधना
+ ी-नृसिंह भारती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200524T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200525T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Jyaiṣṭhaḥ (lunar) 
@@ -6450,7 +6450,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रम्भा तृतीया
+SUMMARY:रम्भा-तृतीया
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200525T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200526T000000
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
@@ -6557,7 +6557,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुखा अङ्गारक-चतुर्थी
+SUMMARY:सुखा-अङ्गारक-चतुर्थी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200526T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200527T000000
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
@@ -6786,7 +6786,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५० जगद्गुरु श्री 
+SUMMARY:काञ्ची ५० जगद्गुरु श्री-
  चन्द्रचूडेन्द्र सरस्वती २ 
  आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200528T000000
@@ -6809,7 +6809,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६ जगद्गुरु श्री श
+SUMMARY:काञ्ची ६ जगद्गुरु श्री-श
  ुद्धानन्देन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200528T000000
@@ -6927,7 +6927,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २३ जगद्गुरु श्री 
+SUMMARY:काञ्ची २३ जगद्गुरु श्री-
  सच्चित्सुखेन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200529T000000
@@ -7045,7 +7045,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:धूमावती जयन्ती
+SUMMARY:धूमावती-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200530T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200531T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
@@ -7081,7 +7081,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १६ जगद्गुरु श्री 
+SUMMARY:काञ्ची १६ जगद्गुरु श्री-
  उज्ज्वल शङ्करेन्द्र सरस्वत
  ी आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200530T000000
@@ -7161,7 +7161,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६१ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६१ जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती ४ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200531T000000
@@ -7277,7 +7277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दशहरा/गङ्गावतरणम्/दशपाप
- हरा दशमी
+ हरा-दशमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200601T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
@@ -7304,7 +7304,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १ जगद्गुरु श्री आ
+SUMMARY:काञ्ची १ जगद्गुरु श्री-आ
  दि-शङ्कर भगवत्पाद आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200601T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T000000
@@ -7326,7 +7326,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १७ जगद्गुरु श्री 
+SUMMARY:काञ्ची १७ जगद्गुरु श्री-
  सदाशिवेन्द्र सरस्वती आराधन
  ा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200601T000000
@@ -7348,7 +7348,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५३ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५३ जगद्गुरु श्री-
  पूर्णानन्द सदाशिवेन्द्र सर
  स्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200601T000000
@@ -7455,7 +7455,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २ जगद्गुरु श्री स
+SUMMARY:काञ्ची २ जगद्गुरु श्री-स
  ुरेश्वराचार्य आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200603T000000
@@ -7699,7 +7699,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:छत्रपति शिवाजी राज्याभि
+SUMMARY:छत्रपति-शिवाजी-राज्याभि
  षेकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200604T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
@@ -7790,7 +7790,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विद्यारण्य स्वामी आराधन
+SUMMARY:विद्यारण्य-स्वामी-आराधन
  ा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200604T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
@@ -7897,7 +7897,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री चन्
+SUMMARY:काञ्ची जगद्गुरु श्री-चन्
  द्रशेखरेन्द्र सरस्वती ७ जय
  न्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
@@ -7917,7 +7917,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कबीरदास जयन्ती
+SUMMARY:कबीरदास-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
@@ -7934,7 +7934,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (भौत्यः [१४])
+SUMMARY:मन्वादिः-(भौत्यः-[१४])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
@@ -7952,7 +7952,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -7989,7 +7989,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
@@ -8108,7 +8108,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री शङ्
+SUMMARY:काञ्ची जगद्गुरु श्री-शङ्
  कर विजयेन्द्र सरस्वती आश्र
  म-स्वीकार-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200607T000000
@@ -8809,7 +8809,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कूर्म जयन्ती
+SUMMARY:कूर्म-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Jyaiṣṭhaḥ (l
@@ -8844,7 +8844,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:उन्मीलनी महाद्वादशी
+SUMMARY:उन्मीलनी-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
 DESCRIPTION:
@@ -9145,7 +9145,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दXइणायनारम्भः
+SUMMARY:दक्षिणायनारम्भः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200622T000000
 DESCRIPTION:Observed on day 1 of Śuciḥ (tropical) month (sunrise (defau
@@ -9162,7 +9162,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २५ जगद्गुरु श्री 
+SUMMARY:काञ्ची २५ जगद्गुरु श्री-
  सच्चिदानन्दघनेन्द्र सरस्व
  ती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T000000
@@ -9567,7 +9567,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३५ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३५ जगद्गुरु श्री-
  चित्सुखेन्द्र सरस्वती आराध
  ना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200626T000000
@@ -9948,7 +9948,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १२ जगद्गुरु श्री 
+SUMMARY:काञ्ची १२ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200629T000000
@@ -9971,7 +9971,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुदर्शन जयन्ती
+SUMMARY:सुदर्शन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200629T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200630T000000
 DESCRIPTION:Observed on Citrā nakshatra of Mithunam (solar) month (praata
@@ -10074,7 +10074,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आशा दशमी
+SUMMARY:आशा-दशमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200630T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
@@ -10127,7 +10127,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४८ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४८ जगद्गुरु श्री-
  अद्वैतानन्दबोधेन्द्र सरस्
  वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200630T000000
@@ -10150,7 +10150,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (वैवस्वतः [७])
+SUMMARY:मन्वादिः-(वैवस्वतः-[७])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200630T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
@@ -10325,7 +10325,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३१ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३१ जगद्गुरु श्री-
  ब्रह्मानन्दघनेन्द्र सरस्व
  ती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200702T000000
@@ -10348,7 +10348,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६३ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६३ जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती ५ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200702T000000
@@ -10519,7 +10519,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १० जगद्गुरु श्री 
+SUMMARY:काञ्ची १० जगद्गुरु श्री-
  सुरेश्वरेन्द्र सरस्वती आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200704T000000
@@ -10558,7 +10558,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (ब्रह्मः [१०])
+SUMMARY:मन्वादिः-(ब्रह्मः-[१०])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200704T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
@@ -10593,7 +10593,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200704T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
@@ -10697,7 +10697,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५४ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५४ जगद्गुरु श्री-
  व्यासाचल महादेवेन्द्र सरस्
  वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
@@ -10720,7 +10720,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -11168,7 +11168,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चामुण्डेश्वरी जयन्ती
+SUMMARY:चामुण्डेश्वरी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200712T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200713T000000
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Āṣāḍhaḥ (lun
@@ -11511,7 +11511,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पापनाशिनी महाद्वादशी
+SUMMARY:पापनाशिनी-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200717T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200718T000000
 DESCRIPTION:Dvadashi tithi\, combined with Rohini nakshatra.<br/><br/>####
@@ -11763,7 +11763,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३८ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३८ जगद्गुरु श्री-
  अभिनवशङ्करेन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200720T000000
@@ -11786,7 +11786,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४६ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४६ जगद्गुरु श्री-
  सान्द्रानन्दबोधेन्द्र सरस
  ्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200720T000000
@@ -11894,7 +11894,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४१ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४१ जगद्गुरु श्री-
  गङ्गाधरेन्द्र सरस्वती २ आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200721T000000
@@ -11995,7 +11995,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सत्यनारायण जयन्ती
+SUMMARY:सत्यनारायण-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200722T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200723T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Śrāvaṇaḥ (lunar) m
@@ -12071,7 +12071,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरियाली तृतीया
+SUMMARY:हरियाली-तृतीया
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200723T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200724T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Śrāvaṇaḥ (lunar) 
@@ -12105,7 +12105,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पार्वती पवित्रारोपणम्
+SUMMARY:पार्वती-पवित्रारोपणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200723T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200724T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Śrāvaṇaḥ (lunar) 
@@ -12309,7 +12309,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्कि जयन्ती
+SUMMARY:कल्कि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200725T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200726T000000
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Śrāvaṇaḥ (luna
@@ -12421,7 +12421,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शीतला सप्तमी
+SUMMARY:शीतला-सप्तमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200726T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200727T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
@@ -12529,7 +12529,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पापनाशनी सप्तमी
+SUMMARY:पापनाशनी-सप्तमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200727T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200728T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
@@ -12564,7 +12564,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तुलसीदास जयन्ती
+SUMMARY:तुलसीदास-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200727T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200728T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
@@ -12727,7 +12727,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५७ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५७ जगद्गुरु श्री-
  परमशिवेन्द्र सरस्वती २ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200729T000000
@@ -12827,7 +12827,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २९ जगद्गुरु श्री 
+SUMMARY:काञ्ची २९ जगद्गुरु श्री-
  पूर्णबोधेन्द्र सरस्वती आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200730T000000
@@ -13247,7 +13247,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गायत्री जयन्ती
+SUMMARY:गायत्री-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
@@ -13264,7 +13264,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हयग्रीव जयन्ती
+SUMMARY:हयग्रीव-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
@@ -13288,7 +13288,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २० जगद्गुरु श्री 
+SUMMARY:काञ्ची २० जगद्गुरु श्री-
  मूकशङ्करेन्द्र सरस्वती आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
@@ -13328,7 +13328,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -13419,7 +13419,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
@@ -13440,7 +13440,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वैखानस महर्षि जयन्ती
+SUMMARY:वैखानस-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200803T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
@@ -13636,7 +13636,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भीम चण्डी जयन्ती
+SUMMARY:भीम-चण्डी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200806T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
@@ -13654,7 +13654,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री जये
+SUMMARY:काञ्ची जगद्गुरु श्री-जये
  न्द्र सरस्वती जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200806T000000
@@ -13673,7 +13673,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री राघवेन्द्र स्वामी आ
+SUMMARY:श्री-राघवेन्द्र-स्वामी-आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200806T000000
@@ -13734,7 +13734,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कज्जली तृतीया
+SUMMARY:कज्जली-तृतीया
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200806T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200807T000000
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Śrāvaṇaḥ (lu
@@ -13823,7 +13823,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बहुला चतुर्थी
+SUMMARY:बहुला-चतुर्थी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200807T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Śrāvaṇaḥ (lun
@@ -13916,7 +13916,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रक्षा पञ्चमी
+SUMMARY:रक्षा-पञ्चमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200809T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Śrāvaṇaḥ (lun
@@ -14067,7 +14067,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २१ जगद्गुरु श्री 
+SUMMARY:काञ्ची २१ जगद्गुरु श्री-
  सार्वभौमगुरुः चन्द्रचूडेन
  ्द्र सरस्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200811T000000
@@ -14090,7 +14090,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महाकाली जयन्ती
+SUMMARY:महाकाली-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200811T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200812T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
@@ -14107,7 +14107,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (दक्षः [९])
+SUMMARY:मन्वादिः-(दक्षः-[९])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200811T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200812T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
@@ -14220,7 +14220,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २४ जगद्गुरु श्री 
+SUMMARY:काञ्ची २४ जगद्गुरु श्री-
  चित्सुखेन्द्र सरस्वती आराध
  ना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200812T000000
@@ -14387,7 +14387,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अरविन्द जयन्ती
+SUMMARY:अरविन्द-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200813T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200814T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar
@@ -14687,7 +14687,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रोहिणी द्वादशी
+SUMMARY:रोहिणी-द्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200816T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200817T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Śrāvaṇaḥ (lu
@@ -15095,7 +15095,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अङ्गारक जयन्ती
+SUMMARY:अङ्गारक-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200820T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200821T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Bhādrapadaḥ (lunar) m
@@ -15211,7 +15211,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (तामसः [४])
+SUMMARY:मन्वादिः-(तामसः-[४])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200821T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar) 
@@ -15248,7 +15248,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वराह जयन्ती
+SUMMARY:वराह-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200821T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar) 
@@ -15810,7 +15810,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दधीचि महर्षि जयन्ति
+SUMMARY:दधीचि-महर्षि-जयन्ति
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200826T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
@@ -15936,7 +15936,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गोधूमा नवमी
+SUMMARY:गोधूमा-नवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200828T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Bhādrapadaḥ (lunar) mon
@@ -15971,7 +15971,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नन्दा नवमी
+SUMMARY:नन्दा-नवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200828T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Bhādrapadaḥ (lunar) mon
@@ -16229,7 +16229,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वामन जयन्ती
+SUMMARY:वामन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200829T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
@@ -16320,7 +16320,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भुवनेश्वरी जयन्ती
+SUMMARY:भुवनेश्वरी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200831T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
@@ -16610,7 +16610,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५९ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५९ जगद्गुरु श्री-
  भगवन्नाम बोधेन्द्र सरस्वती
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200901T000000
@@ -16633,7 +16633,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200901T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200902T000000
@@ -16727,7 +16727,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200902T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200903T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -16982,7 +16982,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कजरी तृतीया
+SUMMARY:कजरी-तृतीया
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200905T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200906T000000
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Bhādrapadaḥ (lu
@@ -17238,7 +17238,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३३ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३३ जगद्गुरु श्री-
  सच्चिदानन्दघनेन्द्र सरस्व
  ती २ आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200908T000000
@@ -17377,7 +17377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी ३५ जगद्गुरु श्र
- ी अभिनव विद्यातीर्थ महास्व
+ ी-अभिनव विद्यातीर्थ महास्व
  ामी आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200909T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200910T000000
@@ -17568,7 +17568,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुमङ्गला नवमी
+SUMMARY:सुमङ्गला-नवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200911T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200912T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
@@ -17803,7 +17803,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:जया महाद्वादशी
+SUMMARY:जया-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200915T000000
 DESCRIPTION:Dvadashi tithi\, combined with Pushya nakshatra.<br/><br/>####
@@ -17912,7 +17912,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४४ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४४ जगद्गुरु श्री-
  पूर्णबोधेन्द्र सरस्वती २ आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200915T000000
@@ -18024,7 +18024,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कात्यायनी जयन्ती
+SUMMARY:कात्यायनी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200916T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200917T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (l
@@ -18156,7 +18156,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विश्वकर्मा जयन्ती
+SUMMARY:विश्वकर्मा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200917T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
 DESCRIPTION:Observed on day 1 of Kanyā (solar) month (sunrise (default)/p
@@ -18174,7 +18174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी ३४ जगद्गुरु श्र
- ी चन्द्रशेखर भारती आराधना
+ ी-चन्द्रशेखर भारती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200917T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month 
@@ -18487,7 +18487,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दXइण-विषुव-दिनम्
+SUMMARY:दक्षिण-विषुव-दिनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200923T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200924T000000
 DESCRIPTION:Observed on day 1 of Iṣaḥ (tropical) month (sunrise (defau
@@ -18946,7 +18946,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201001T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201002T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -18964,7 +18964,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201001T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201002T000000
@@ -19945,7 +19945,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अग्रसेन महाराज जयन्ती
+SUMMARY:अग्रसेन-महाराज-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201017T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201018T000000
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
@@ -20281,7 +20281,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुखा अङ्गारक-चतुर्थी
+SUMMARY:सुखा-अङ्गारक-चतुर्थी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201020T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201021T000000
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
@@ -20461,7 +20461,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४५ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४५ जगद्गुरु श्री-
  परमशिवेन्द्र सरस्वती १ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201022T000000
@@ -20649,7 +20649,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १९ जगद्गुरु श्री 
+SUMMARY:काञ्ची १९ जगद्गुरु श्री-
  मार्ताण्ड विद्याघनेन्द्र स
  रस्वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201024T000000
@@ -20689,7 +20689,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (स्वायम्भुवः [१])
+SUMMARY:मन्वादिः-(स्वायम्भुवः-[१])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201024T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201025T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
@@ -20816,7 +20816,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुद्ध जयन्ती
+SUMMARY:बुद्ध-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201025T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201026T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -20920,7 +20920,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आयुध पूजा
+SUMMARY:आयुध-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201026T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201027T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -21006,7 +21006,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मध्वाचार्य जयन्ती
+SUMMARY:मध्वाचार्य-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201026T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201027T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -21356,7 +21356,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महा अन्नाभिषेकः
+SUMMARY:महा-अन्नाभिषेकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201030T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunse
@@ -21412,7 +21412,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आग्रयण होमः द्राविडेषु
+SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunri
@@ -21430,7 +21430,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३६ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३६ जगद्गुरु श्री-
  चित्सुखानन्देन्द्र सरस्वत
  ी आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
@@ -21488,7 +21488,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुन्ती (पार्वती)-व्रतम्
+SUMMARY:कुन्ती-(पार्वती)-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -21528,7 +21528,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मीराबाई जयन्ती
+SUMMARY:मीराबाई-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -21545,7 +21545,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -21581,7 +21581,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वाल्मीकि महर्षि जयन्ती
+SUMMARY:वाल्मीकि-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -21598,7 +21598,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
@@ -22296,7 +22296,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भीमसेन जयन्ती
+SUMMARY:भीमसेन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Āśvayujaḥ (lunar)
@@ -22536,7 +22536,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी ३४ जगद्गुरु श्र
- ी चन्द्रशेखर भारती ३ जयन्ती
+ ी-चन्द्रशेखर भारती-३ जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201111T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Āśvayujaḥ (lun
@@ -22750,7 +22750,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:धन्वन्तरि जयन्ती
+SUMMARY:धन्वन्तरि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201113T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201114T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Āśvayujaḥ (lu
@@ -22979,7 +22979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी ३५ जगद्गुरु श्र
- ी अभिनव विद्यातीर्थ महास्व
+ ी-अभिनव विद्यातीर्थ महास्व
  ामी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201114T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
@@ -23041,7 +23041,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आग्रयण होमः द्राविडेषु
+SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (sunrise/
@@ -23124,7 +23124,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कमला जयन्ती
+SUMMARY:कमला-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
@@ -23286,7 +23286,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका सोमवासरः
+SUMMARY:कृत्तिका-सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201117T000000
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
@@ -23490,7 +23490,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:देवसेना पञ्चमी
+SUMMARY:देवसेना-पञ्चमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201119T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201120T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Kārttikaḥ (lunar) mon
@@ -23508,7 +23508,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पाण्डव (लाभ)-पञ्चमी
+SUMMARY:पाण्डव-(लाभ)-पञ्चमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201119T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201120T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Kārttikaḥ (lunar) mon
@@ -23809,7 +23809,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कार्तवीर्यार्जुन जयन्त
+SUMMARY:कार्तवीर्यार्जुन-जयन्त
  ी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201122T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
@@ -23884,7 +23884,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अक्षया नवमी
+SUMMARY:अक्षया-नवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201124T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
@@ -23918,7 +23918,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २२ जगद्गुरु श्री 
+SUMMARY:काञ्ची २२ जगद्गुरु श्री-
  परिपूर्णबोधेन्द्र सरस्वती 
  आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
@@ -23941,7 +23941,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका सोमवासरः
+SUMMARY:कृत्तिका-सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201124T000000
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
@@ -24300,7 +24300,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (स्वारोचिषः [२])
+SUMMARY:मन्वादिः-(स्वारोचिषः-[२])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
@@ -24369,7 +24369,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:व्यञ्जुली महाद्वादशी
+SUMMARY:व्यञ्जुली-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
 DESCRIPTION:Dvadashi tithi\, which is present at sunrise on two consecutiv
@@ -24403,7 +24403,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:याज्ञवल्क्य जयन्ती
+SUMMARY:याज्ञवल्क्य-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
@@ -24729,7 +24729,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (धर्मः [११])
+SUMMARY:मन्वादिः-(धर्मः-[११])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
@@ -24799,7 +24799,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
@@ -24820,7 +24820,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री गोविन्द भगवत्पाद आर
+SUMMARY:श्री-गोविन्द भगवत्पाद आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
@@ -24876,7 +24876,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आग्रयण होमः द्राविडेषु
+SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
@@ -25017,7 +25017,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका सोमवासरः
+SUMMARY:कृत्तिका-सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
@@ -25051,7 +25051,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -25139,7 +25139,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६४ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६४ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ५
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
@@ -25263,7 +25263,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ९ जगद्गुरु श्री क
+SUMMARY:काञ्ची ९ जगद्गुरु श्री-क
  ृपाशङ्करेन्द्र सरस्वती आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201203T000000
@@ -25528,7 +25528,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका सोमवासरः
+SUMMARY:कृत्तिका-सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201207T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
@@ -25584,7 +25584,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४२ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४२ जगद्गुरु श्री-
  ब्रह्मानन्दघनेन्द्र सरस्व
  ती २ आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
@@ -25607,7 +25607,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४९ जगद्गुरु श्री 
+SUMMARY:काञ्ची ४९ जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती ३ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
@@ -25630,7 +25630,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५८ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५८ जगद्गुरु श्री-
  आत्मबोधेन्द्र सरस्वती आराध
  ना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
@@ -25745,7 +25745,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची २८ जगद्गुरु श्री 
+SUMMARY:काञ्ची २८ जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती १ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201209T000000
@@ -26039,7 +26039,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नारायणीयं जयन्ती
+SUMMARY:नारायणीयं-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201213T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DESCRIPTION:Observed on day 28 of Vṛścikaḥ (solar) month (sunrise (de
@@ -26096,7 +26096,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आग्रयण होमः द्राविडेषु
+SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
@@ -26147,7 +26147,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका सोमवासरः
+SUMMARY:कृत्तिका-सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
@@ -26304,7 +26304,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १८ जगद्गुरु श्री 
+SUMMARY:काञ्ची १८ जगद्गुरु श्री-
  योगतिलक सुरेन्द्र सरस्वती 
  आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
@@ -26668,7 +26668,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३२ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३२ जगद्गुरु श्री-
  चिदानन्दघनेन्द्र सरस्वती आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201220T000000
@@ -26796,7 +26796,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५ जगद्गुरु श्री ज
+SUMMARY:काञ्ची ५ जगद्गुरु श्री-ज
  ्ञानानन्देन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201221T000000
@@ -27126,7 +27126,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गीता जयन्ती
+SUMMARY:गीता-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201225T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Mārgaśīrṣaḥ (lun
@@ -27438,7 +27438,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दत्तात्रेय जयन्ती
+SUMMARY:दत्तात्रेय-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201229T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
@@ -27459,7 +27459,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201229T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
@@ -27543,7 +27543,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अन्नपूर्णा जयन्ती
+SUMMARY:अन्नपूर्णा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
@@ -27578,7 +27578,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १३ जगद्गुरु श्री 
+SUMMARY:काञ्ची १३ जगद्गुरु श्री-
  सच्चिद्घनेन्द्र सरस्वती आर
  ाधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
@@ -27620,7 +27620,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -27656,7 +27656,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रिपुर भैरवी जयन्ती
+SUMMARY:त्रिपुर-भैरवी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
@@ -27713,7 +27713,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रमण महर्षि जयन्ती
+SUMMARY:रमण-महर्षि-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210101T000000
 DESCRIPTION:Observed on Punarvasuḥ nakshatra of Dhanuḥ (solar) month (
@@ -28080,7 +28080,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ४ जगद्गुरु श्री स
+SUMMARY:काञ्ची ४ जगद्गुरु श्री-स
  त्यबोधेन्द्र सरस्वती आराधन
  ा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210106T000000
@@ -28176,7 +28176,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री शेषाद्रि-स्वामी आरा
+SUMMARY:श्री-शेषाद्रि-स्वामी-आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210107T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210108T000000
@@ -28359,7 +28359,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६८ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६८ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ७
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
@@ -28548,7 +28548,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची १४ जगद्गुरु श्री 
+SUMMARY:काञ्ची १४ जगद्गुरु श्री-
  विद्याघनेन्द्र सरस्वती आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T000000
@@ -28571,7 +28571,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३४ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३४ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती २
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T000000
@@ -28701,7 +28701,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री हनूमत् जयन्ती
+SUMMARY:श्री-हनूमत्-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Dhanuḥ (solar) month (sunri
@@ -29388,7 +29388,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५५ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५५ जगद्गुरु श्री-
  चन्द्रचूडेन्द्र सरस्वती ३ 
  आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T000000
@@ -29411,7 +29411,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (चाक्षुषः [६])
+SUMMARY:मन्वादिः-(चाक्षुषः-[६])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
@@ -29446,7 +29446,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रैलङ्ग-स्वामी जयन्ती
+SUMMARY:त्रैलङ्ग-स्वामी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
@@ -29702,7 +29702,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ८ जगद्गुरु श्री क
+SUMMARY:काञ्ची ८ जगद्गुरु श्री-क
  ैवल्यानन्दयोगेन्द्र सरस्व
  ती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210127T000000
@@ -29797,7 +29797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:बदरी ज्योतिर्मठ-प्रतिष्
- ठापन जयन्ती
+ ठापन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -29849,7 +29849,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -29867,7 +29867,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
@@ -29888,7 +29888,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शाकम्भरी जयन्ती
+SUMMARY:शाकम्भरी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -29908,7 +29908,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शृङ्गेरी शारदामठ-प्रतिष
- ्ठापन जयन्ती
+ ्ठापन-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -30019,7 +30019,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ३७ जगद्गुरु श्री 
+SUMMARY:काञ्ची ३७ जगद्गुरु श्री-
  विद्याघनेन्द्र सरस्वती ३ आ
  राधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T000000
@@ -30042,7 +30042,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६२ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६२ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ४
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T000000
@@ -30279,7 +30279,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री शेषाद्रि-स्वामी जयन
+SUMMARY:श्री-शेषाद्रि-स्वामी-जयन
  ्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210202T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210203T000000
@@ -30410,7 +30410,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विवेकानन्द जयन्ती
+SUMMARY:विवेकानन्द-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T000000
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
@@ -30554,7 +30554,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भीष्म जयन्ती
+SUMMARY:भीष्म-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210206T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210207T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Pauṣaḥ (lunar) mo
@@ -30694,8 +30694,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सेङ्गालिपुरम् मुत्तण्ण
- ावाळ् आराधना
+SUMMARY:सेङ्गालिपुरम्-मुत्तण्ण
+ ावाळ्-आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (solar) 
@@ -31177,7 +31177,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मार्कण्डेय जयन्ती
+SUMMARY:मार्कण्डेय-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210215T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T000000
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month 
@@ -31270,7 +31270,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:माघी सरस्वती-पूजा
+SUMMARY:माघी-सरस्वती-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month 
@@ -31417,7 +31417,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पून्तानं जयन्ती
+SUMMARY:पून्तानं-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T000000
 DESCRIPTION:Observed on Aśvinī nakshatra of Kumbhaḥ (solar) month (sun
@@ -31495,7 +31495,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादिः (सावर्णिः [८])
+SUMMARY:मन्वादिः-(सावर्णिः-[८])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -31571,7 +31571,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अचला सप्तमी-व्रतम्
+SUMMARY:अचला-सप्तमी-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -31610,7 +31610,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्वारका-मठ-प्रतिष्ठापन ज
+SUMMARY:द्वारका-मठ-प्रतिष्ठापन-ज
  यन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
@@ -31649,7 +31649,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नर्मदा जयन्ती
+SUMMARY:नर्मदा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -31740,7 +31740,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:खोडियार माता जयन्ती
+SUMMARY:खोडियार-माता-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210221T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
@@ -31954,7 +31954,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ११ जगद्गुरु श्री 
+SUMMARY:काञ्ची ११ जगद्गुरु श्री-
  शिवानन्द चिद्घनेन्द्र सरस्
  वती आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T000000
@@ -32198,7 +32198,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:जयन्ती महाद्वादशी
+SUMMARY:जयन्ती-महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T000000
 DESCRIPTION:Dvadashi tithi\, combined with Punarvasu nakshatra.<br/><br/>#
@@ -32474,7 +32474,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले पूर्णिमा गरु
+SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210226T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T000000
@@ -32533,7 +32533,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ५१ जगद्गुरु श्री 
+SUMMARY:काञ्ची ५१ जगद्गुरु श्री-
  विद्यातीर्थेन्द्र सरस्वती 
  आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T000000
@@ -32556,7 +32556,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ललिता जयन्ती
+SUMMARY:ललिता-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (s
@@ -32631,7 +32631,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णिमा व्रतम्
+SUMMARY:पूर्णिमा-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
@@ -32803,7 +32803,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अङ्गारकी द्विजप्रिय-महा
+SUMMARY:अङ्गारकी-द्विजप्रिय-महा
  गणपति सङ्कटहर-चतुर्थी-व्रत
  म्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210302T000000
@@ -32939,7 +32939,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:यशोदा जयन्ती
+SUMMARY:यशोदा-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210304T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Māghaḥ (luna
@@ -33030,7 +33030,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शबरी जयन्ती
+SUMMARY:शबरी-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210306T000000
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Māghaḥ (lunar) mo
@@ -33086,7 +33086,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६६ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६६ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ६
   आराधना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210306T000000
@@ -33304,7 +33304,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री शङ्
+SUMMARY:काञ्ची जगद्गुरु श्री-शङ्
  कर विजयेन्द्र सरस्वती जयन्
  ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
@@ -33762,7 +33762,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची ६७ जगद्गुरु श्री 
+SUMMARY:काञ्ची ६७ जगद्गुरु श्री-
  महादेवेन्द्र सरस्वती ५ आरा
  धना
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
@@ -33881,7 +33881,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:फूलेरा दूज्
+SUMMARY:फूलेरा-दूज्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210316T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
@@ -33899,7 +33899,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रामकृष्ण-परमहंस जयन्ती
+SUMMARY:रामकृष्ण-परमहंस-जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210316T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
@@ -34140,7 +34140,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुत्तुस्वामी दीक्षित जय
+SUMMARY:मुत्तुस्वामी-दीक्षित-जय
  न्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210319T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
@@ -34264,7 +34264,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्री राघवेन्द्र-स्वामी ज
+SUMMARY:श्री-राघवेन्द्र-स्वामी-ज
  यन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210321T000000
