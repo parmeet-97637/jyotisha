@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201202143155
+SEQUENCE:20201202165153
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -25439,6 +25439,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बाबर-राक्षसालय-नास्हः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201206T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201207T000000
+DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/><br/><br/>##### Details<br/>- [Edit config file](https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregor
+ ian/day/12/06/bAbri-mosque-demolition__info.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिगै ञायिऱ्ऱुक्क
  िऴमै
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201206T000000
@@ -25662,6 +25678,25 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
  onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/templ
  es/Kerala/lunar_month/tithi/08/23/mahAdEvASTamI__info.toml)<br/>- Tags: Ke
  ralaTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शिवराजेन पन्हळदुर्गं गृ
+ हीतम्
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201209T000000
+DESCRIPTION:Observed on day 8 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/>Panhala fell on the 2nd night of the siege! Just 18 days
+  after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa__info.toml)<br/>- Tags:
+  Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26946,7 +26981,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:स्ह्रद्धानन्द-हत्या
+SUMMARY:श्रद्धानन्द-हत्या
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201223T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201224T000000
 DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
@@ -26954,7 +26989,7 @@ DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
   to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>##### De
  tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
  i/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__
- info.toml)<br/>- Tags: MahapurushaEvents
+ info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27316,16 +27351,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:स्हिवराजॆण रुस्तम्-जमान
- ॊ ध्वस्तः
+SUMMARY:शिवराजेण रुस्तम्-जमानॊ ध
+ ्वस्तः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201228T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201229T000000
 DESCRIPTION:Observed on day 28 of December (sunrise (default)/puurvaviddha
   (default)).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle fough
  t near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](https://g
  ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregoria
- n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: MahapurushaEve
- nts
+ n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
