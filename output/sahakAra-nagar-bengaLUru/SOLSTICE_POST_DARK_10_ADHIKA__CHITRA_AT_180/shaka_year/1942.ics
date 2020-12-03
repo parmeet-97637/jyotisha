@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201203203951
+SEQUENCE:20201203214838
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11417,12 +11417,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
-DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunri
- se/puurvaviddha).  <br/>Perform होम with fresh rice from paddy.<br/>
- ##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~draviDa
- deshe~1__info.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (Sūry
+ odayaḥ/puurvaviddha).  <br/>Perform होम with fresh rice from paddy
+ .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Detai
+ ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~d
+ raviDadeshe~1__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12205,12 +12205,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
-DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (sunrise/
- puurvaviddha).  <br/>Perform होम with fresh rice from paddy.<br/>###
- ## References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviDades
- he~2__info.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (Sūryoda
+ yaḥ/puurvaviddha).  <br/>Perform होम with fresh rice from paddy.<b
+ r/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<
+ br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree
+ /master/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~drav
+ iDadeshe~2__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12971,11 +12971,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
- h (sunrise/puurvaviddha).  <br/>Perform होम with fresh rice from pad
- dy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Det
- ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
- /tree/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~hOmaH
- ~draviDadeshe~3__info.toml)<br/>- Tags: SpecialPuja
+ h (Sūryodayaḥ/puurvaviddha).  <br/>Perform होम with fresh rice fr
+ om paddy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa
+ ~hOmaH~draviDadeshe~3__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13690,11 +13690,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
- sunrise/puurvaviddha).  <br/>Perform होम with fresh rice from paddy.
- <br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Detail
- s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
- ee/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOmaH~dr
- aviDadeshe~4__info.toml)<br/>- Tags: SpecialPuja
+ Sūryodayaḥ/puurvaviddha).  <br/>Perform होम with fresh rice from 
+ paddy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### 
+ Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
+ thi/tree/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hO
+ maH~draviDadeshe~4__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16321,10 +16321,10 @@ SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
- neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham__info.toml)<br/>- Tags
- : ShannavatiTarpanaDays
+  month (Aparāhṇaḥ/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRh
+ ya/general/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham__info.toml)<br/>-
+  Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
