@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201206083220
+SEQUENCE:20201206104054
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2982,7 +2982,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मेष-सङ्क्रान्तिः-(शार्वर
+SUMMARY:मेष-सङ्क्रान्तिः (शार्वर
  ी-संवत्सरः)
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200414T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200415T000000
@@ -10147,7 +10147,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:उन्मीलनी-महाद्वादशी
+SUMMARY:उन्मीलनी महाद्वादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
 DESCRIPTION:
@@ -10601,15 +10601,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:★चूडामणि-सूर्य-ग्रहणम्
+SUMMARY:★चूडामणि-सूर्य-ग्रहणं (र
+ ाहुग्रस्त)
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T101254
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T133158
-DESCRIPTION:When a solar eclipse occurs on a Sunday\, it is even more spec
- ial: chūḍāmaṇi\, i.e. crest jewel.<br/>##### References<br/>- Kielho
- rn\, 1897<br/><br/><br/>##### Details<br/>- [Edit config file](https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/time_focus/Eclipses/descript
- ion_only/%E2%98%85cUDAmaNi-sUrya-grahaNam.toml)<br/>- Tags: RareDays Combi
- nations Eclipses
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37899,7 +37895,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अङ्गारकी-द्विजप्रिय-महा
+SUMMARY:अङ्गारकी द्विजप्रिय-महा
  गणपति सङ्कटहर-चतुर्थी-व्रत
  म्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210302T000000
