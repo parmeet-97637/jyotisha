@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201207074722
+SEQUENCE:20201207080301
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5786,24 +5786,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
  onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
  /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
  estivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्प-बलि-प्रारम्भः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
-DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/>Offer bali to serpent
- s on (from) this day\, in the night after sthālīpāka.<br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/gRhya/general/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.
- toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12181,24 +12163,6 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
  _16/offset__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्प-बल्युत्सर्जनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
-DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (sunrise (default)/puurvaviddha (default)).  <br/>Offer final bali 
- to serpents on to this day\, in the night after sthālīpāka.<br/><br/>##
- ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
- yatithi/tree/master/gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsar
- janam.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
