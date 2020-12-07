@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201206215240
+SEQUENCE:20201207074638
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -22563,23 +22563,6 @@ DESCRIPTION:Observed on Rohiṇī nakshatra of Kanyā (solar) month (Prāt
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanA
  r/sidereal_solar_month/nakshatra/06/04/tirunALaippOvAr%20nAyan2Ar%20%2817%
  29%20gurupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:व्यतीपात-श्राद्धम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201007T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201008T000000
-DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (Aparāh
- ṇaḥ/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<
- br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
