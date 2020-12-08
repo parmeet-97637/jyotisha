@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201208084636
+SEQUENCE:20201208112648
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -323,10 +323,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -339,11 +339,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1074,11 +1073,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1091,11 +1090,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200409T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1871,10 +1870,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200423T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200424T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1887,11 +1886,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200423T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200424T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2673,11 +2671,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200509T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2690,11 +2688,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200509T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3474,10 +3472,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200523T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200524T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3490,11 +3488,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200523T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200524T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4225,11 +4222,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200607T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4242,11 +4239,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200607T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5027,10 +5024,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200622T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5043,11 +5040,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200622T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5781,11 +5777,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5798,11 +5794,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5816,10 +5812,10 @@ SUMMARY:यजुर्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryodayaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRh
- ya/general/lunar_month/tithi/05/15/yajurvEda-upAkarma.toml)<br/>- Tags: Co
- mmonFestivals
+ th (Sūryodayaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/05/15/yajurvEda-upAkarma.toml)<br/>- Tags: CommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5949,10 +5945,10 @@ SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200707T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
- month (Sūryodayaḥ/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gR
- hya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: 
- CommonFestivals
+ month (Sūryodayaḥ/paraviddha). <br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
+ neral/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: Common
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6684,10 +6680,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200721T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200722T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6700,11 +6696,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200721T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200722T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7436,11 +7431,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7453,11 +7448,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200804T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8238,10 +8233,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200819T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200820T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8254,11 +8249,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200819T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200820T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8420,11 +8414,11 @@ BEGIN:VEVENT
 SUMMARY:सामवेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200823T000000
-DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (S
- ūryodayaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
- neral/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- T
- ags: CommonFestivals
+DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (sidereal solar) 
+ month (Sūryodayaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/
+ general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>-
+  Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9002,11 +8996,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200902T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200903T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9019,11 +9013,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200902T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200903T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9857,10 +9851,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200919T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9873,11 +9867,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200919T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10607,11 +10600,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201002T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201003T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10624,11 +10617,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201002T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201003T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11407,10 +11400,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201017T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201018T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11423,11 +11416,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201017T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201018T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12141,12 +12133,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
-DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (Sūry
- odayaḥ/puurvaviddha).  <br/>Perform homa with fresh rice from paddy.<br/
- >##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br
- />- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/m
- aster/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~draviD
- adeshe~1.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (sidereal solar) mon
+ th (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.<
+ br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details
+ <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~dra
+ viDadeshe~1.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12225,11 +12217,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201102T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12242,11 +12234,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201102T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12977,12 +12969,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
-DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (Sūryoda
- yaḥ/puurvaviddha).  <br/>Perform homa with fresh rice from paddy.<br/>##
- ### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br/>-
-  [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviDade
- she~2.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (sidereal solar) month 
+ (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.<br/
+ >##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br
+ />- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviD
+ adeshe~2.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12995,10 +12987,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13011,11 +13003,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13775,12 +13766,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
-DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
- h (Sūryodayaḥ/puurvaviddha).  <br/>Perform homa with fresh rice from pa
- ddy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~hOma
- H~draviDadeshe~3.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (sidereal so
+ lar) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from
+  paddy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>#####
+  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~h
+ OmaH~draviDadeshe~3.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13859,11 +13850,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201202T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13876,11 +13867,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201202T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14544,12 +14535,12 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
-DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
- Sūryodayaḥ/puurvaviddha).  <br/>Perform homa with fresh rice from paddy
- .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOmaH~d
- raviDadeshe~4.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (sidereal solar
+ ) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from pa
+ ddy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### De
+ tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
+ i/tree/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOma
+ H~draviDadeshe~4.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14629,10 +14620,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201216T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14645,11 +14636,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201216T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15425,11 +15415,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15442,11 +15432,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16180,10 +16170,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16196,11 +16186,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17027,11 +17016,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17044,11 +17033,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17374,10 +17363,10 @@ SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRh
- ya/general/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags:
-  ShannavatiTarpanaDays
+  month (Aparāhṇaḥ/vyaapti). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shann
+ avatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17823,10 +17812,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17839,11 +17828,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18671,11 +18659,11 @@ BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18688,11 +18676,11 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T000000
-DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
- Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
- /general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyF
- estivals
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gen
+ eral/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19427,10 +19415,10 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19443,11 +19431,10 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
- āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
- ral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestiva
- ls
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). <br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/
+ lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
