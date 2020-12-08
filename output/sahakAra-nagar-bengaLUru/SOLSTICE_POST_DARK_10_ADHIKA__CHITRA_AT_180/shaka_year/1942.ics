@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201207200657
+SEQUENCE:20201208084636
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5816,10 +5816,10 @@ SUMMARY:यजुर्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/gRhya/general/lunar_month/tithi/05/15/yajurvEda-upAkarma.toml)<
- br/>- Tags: CommonFestivals
+ th (Sūryodayaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRh
+ ya/general/lunar_month/tithi/05/15/yajurvEda-upAkarma.toml)<br/>- Tags: Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5949,10 +5949,10 @@ SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200707T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
- month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Ta
- gs: CommonFestivals
+ month (Sūryodayaḥ/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
+ t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gR
+ hya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: 
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8420,11 +8420,11 @@ BEGIN:VEVENT
 SUMMARY:सामवेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200823T000000
-DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (su
- nrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.
- toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (S
+ ūryodayaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
+ neral/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- T
+ ags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
