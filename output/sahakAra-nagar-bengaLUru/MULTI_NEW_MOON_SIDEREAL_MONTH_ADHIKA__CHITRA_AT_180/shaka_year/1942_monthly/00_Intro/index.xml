@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;00 Intro on ज्योतिषम् py</title>
+    <link>https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/</link>
+    <description>Recent content in &#43;00 Intro on ज्योतिषम् py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computation parameters</title>
+      <link>https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/Computation_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/Computation_parameters/</guid>
+      <description> 🌏क्षेत्रम् (सहकार-नगरम्, कल्याणपुरी)  Basic parameters lunar_month_assigner_type = &amp;quot;MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA&amp;quot; ayanaamsha_id = &amp;quot;CHITRA_AT_180&amp;quot; jsonClass = &amp;quot;ComputationSystem&amp;quot; Event options aparaahna_as_second_half = false prefer_eight_fold_day_division = false julian_handling = &amp;quot;converted to Gregorian&amp;quot; jsonClass = &amp;quot;FestivalOptions&amp;quot;  Repos: general, gRhya/general, gRhya/Apastamba, tamil, mahApuruSha/general, devatA/pitR, devatA/shaiva, devatA/umA, devatA/graha, devatA/nadI, devatA/shakti, devatA/gaNapati, devatA/kaumAra, devatA/vaiShNava, devatA/lakShmI, devatA/misc-fauna, devatA/misc-flora, mahApuruSha/kAnchI-maTha, mahApuruSha/ALvAr, mahApuruSha/vaiShNava-misc, mahApuruSha/mAdhva-misc, mahApuruSha/smArta-misc, mahApuruSha/sangIta-kRt, mahApuruSha/xatra, mahApuruSha/xatra-later, mahApuruSha/RShi, mahApuruSha/nAyanAr, temples/venkaTAchala, temples/Andhra, temples/Tamil, temples/Kerala, temples/Odisha, temples/North, time_focus/sankrAnti, time_focus/puShkara, time_focus/yugAdiH, time_focus/misc, time_focus/Rtu, time_focus/nakShatra, time_focus/Eclipses, time_focus/misc_combinations, time_focus/monthly/amAvAsyA, time_focus/monthly/ekAdashI, time_focus/monthly/dvAdashI, time_focus/monthly/pradoSha  </description>
+    </item>
+    
+    <item>
+      <title>Related files</title>
+      <link>https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/Related_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/1942_monthly/00_Intro/Related_files/</guid>
+      <description> ics  </description>
+    </item>
+    
+  </channel>
+</rss>
