@@ -26,7 +26,7 @@
 <meta itemprop="name" content="2021-10-06">
 <meta itemprop="description" content="भाद्रपदः-06-30,कन्या-हस्तः🌛🌌◢◣कन्या-हस्तः-06-20🌌🌞◢◣इषः-07-14🪐🌞बुधः  Indian civil date: 1943-07-14, Islamic: 1443-02-28 Ṣafar संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — शरदृतुः दक्षिणायनम् 🌌🌞सौरमानम् — वर्षऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — वर्षऋतुः भाद्रपदः   खचक्रस्थितिः  |🌞-🌛|तिथिः — अमावास्या►16:35; शुक्ल-प्रथमा► 🌌🌛नक्षत्रम् — हस्तः►23:17; चित्रा► (कन्या) 🌌🌞सौर-नक्षत्रम् — हस्तः►    🌛&#43;🌞योगः — ब्रह्म►08:27; इन्द्रः►29:07*; वैधृतिः► २|🌛-🌞|करणम् — नाग►16:35; किंस्तुघ्नः►27:13*; बवः► 🌌🌛- चन्द्राष्टम-राशिः—कुम्भः    🌞-🪐 मूढग्रहाः - मङ्गलः (-0.">
 
-<meta itemprop="wordCount" content="222">
+<meta itemprop="wordCount" content="267">
 
 
 
@@ -69,6 +69,8 @@
     <script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
     <script src="/jyotisha/non_webpack_js/disqus.js"></script>
     <script src="/jyotisha/webpack_dist/ui_lib-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/search-bundle.js"></script>
+
     <link rel="stylesheet" href="/jyotisha/css/fonts.css">
     <link rel="stylesheet" href="/jyotisha/css/@fortawesome/fontawesome-free/css/solid.min.css">
     
@@ -112,10 +114,7 @@
           </a>
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
-          <form action="/jyotisha/search">
-            <input id="titleSearchInputBox" placeholder="शीर्षिकान्विष्यताम्" name="s"><i class="btn fas fa-search "></i>
-          </form>
-          <a href="/jyotisha/custom_site_search/"  class="btn btn-default">Full search</a>
+          ✍
           <select name="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
             <option value="devanagari" selected="">स</option>
             <option value="iast">ā</option>
@@ -137,8 +136,14 @@
             <option value="modi">𑘦𑘻𑘚𑘲</option>
             <option value="tirhuta_maithili">𑒁</option>
           </select>
+          🗨:
+          <select name="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+            <option value="on">✔</option>
+            <option value="hidden">✗</option>
+          </select>
         </div>
         <div class="row col  d-flex justify-content-center">
+          <a href="full_search"  class="btn btn-secondary">🥽🔦</a>
           <div><a  name="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
           <div ><a name="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
         </div>
@@ -152,7 +157,10 @@
     <div class="row" name="contentRow">
       
       <aside class="col-md-3 card border " id="sidebar">
-        <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between" >
+          <div id="fastSearch">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्"  tabindex="0">
+          </div>
+          <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between" >
           <a name="sidebarToggleLink" data-toggle="collapse" href="#sidebar_body" role="button" aria-expanded="true" aria-controls="sidebar_body" onclick="module_main.default.sidebarToggleHandler()">
             Menu <i class="fas fa-caret-down"></i></a>
         </div>
@@ -263,6 +271,9 @@
 </ul>
 <h3 id="परवणवरतम-अमवसययम">पार्वणव्रतम् अमावास्यायाम्</h3>
 <p>pārvaṇavratam on the eve of darśa-sthālīpākaḥ.</p>
+<p>पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - &lsquo;अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन&rsquo;।</p>
+<p>&lsquo;अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।&rsquo;</p>
+<p>परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।</p>
 <h4 id="details-3">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml">Edit config file</a></li>
@@ -321,7 +332,7 @@
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 May 9 16:53:21 UTC. (<a href="http://google.com/search?q=16%3a53%3a21%20UTC to IST">IST</a>)
+      Built on 2021 May 15 12:56:32 UTC. (<a href="http://google.com/search?q=12%3a56%3a32%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
