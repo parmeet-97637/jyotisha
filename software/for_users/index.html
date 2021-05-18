@@ -28,7 +28,7 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
 <meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade:  Install the pyswisseph library specially as described below. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo.">
 
-<meta itemprop="wordCount" content="211">
+<meta itemprop="wordCount" content="258">
 
 
 
@@ -216,7 +216,18 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
 </li>
 <li>Command line usage - can be invoked via some shell scripts at <a href="https://github.com/karthikraman/panchangam">karthik&rsquo;s panchaanga repo</a>. But these often go out of date - so you might need to debug them. See <a href="https://github.com/jyotisham/jyotisha/issues/10">this issue</a>.</li>
 </ul>
-<h3 id="api-usage">API usage</h3>
+<h4 id="sample-code-to-generate-markdown-panchaanga">Sample code to generate Markdown panchaanga</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
+<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
+<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
+city <span style="color:#f92672">=</span> City(<span style="color:#e6db74">&#39;Chennai&#39;</span>, <span style="color:#e6db74">&#34;13:05:24&#34;</span>, <span style="color:#e6db74">&#34;80:16:12&#34;</span>, <span style="color:#e6db74">&#34;Asia/Calcutta&#34;</span>)
+panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672">.</span>get_panchaanga_for_civil_year(city<span style="color:#f92672">=</span>city, year<span style="color:#f92672">=</span><span style="color:#ae81ff">2021</span>, computation_system<span style="color:#f92672">=</span>ComputationSystem<span style="color:#f92672">.</span>TEST, allow_precomputed<span style="color:#f92672">=</span>False)
+
+<span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
+<span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
+md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
+md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, md<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span>False)
+</code></pre></div><h3 id="api-usage">API usage</h3>
 <ul>
 <li>Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
 <ul>
@@ -271,7 +282,7 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 May 15 12:56:32 UTC. (<a href="http://google.com/search?q=12%3a56%3a32%20UTC to IST">IST</a>)
+      Built on 2021 May 18 14:24:33 UTC. (<a href="http://google.com/search?q=14%3a24%3a33%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
