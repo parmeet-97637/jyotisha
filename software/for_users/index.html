@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -22,16 +22,15 @@
 <meta property="og:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade:  Install the pyswisseph library specially as described below. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/for_users/" />
+<meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/for_users/" /><meta property="article:section" content="software" />
+
+
 
 <meta itemprop="name" content="For users">
 <meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade:  Install the pyswisseph library specially as described below. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo.">
 
 <meta itemprop="wordCount" content="280">
-
-
-
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="For users"/>
 <meta name="twitter:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
@@ -230,7 +229,7 @@ panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672
 <span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
 <span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
 md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
-md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, md<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span>False)
+md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, content<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span>False)
 
 <span style="color:#75715e">## Tex</span>
 <span style="color:#f92672">from</span> jyotisha.panchaanga.writer.tex.daily_tex_writer <span style="color:#f92672">import</span> emit
@@ -292,7 +291,7 @@ emit(panchaanga,
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 May 26 05:16:14 UTC. (<a href="http://google.com/search?q=05%3a16%3a14%20UTC to IST">IST</a>)
+      Built on 2021 Jun 6 17:11:08 UTC. (<a href="http://google.com/search?q=17%3a11%3a08%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
