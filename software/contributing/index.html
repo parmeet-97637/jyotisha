@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -23,7 +23,9 @@
 Testing and autotesting Every push to this repository SHOULD pass tests. We should have a rich, functional set of tests at various levels. Saves everyone&rsquo;s time.
 You can see the status of failing tests and builds at https://github.com/jyotisham/jyotisha/actions . PS: You can probably subscribe to get email notification on failed workflow runs as well - I&rsquo;m getting these." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/contributing/" />
+<meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/contributing/" /><meta property="article:section" content="software" />
+
+
 
 <meta itemprop="name" content="Contributing">
 <meta itemprop="description" content="Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.
@@ -31,9 +33,6 @@ Testing and autotesting Every push to this repository SHOULD pass tests. We shou
 You can see the status of failing tests and builds at https://github.com/jyotisham/jyotisha/actions . PS: You can probably subscribe to get email notification on failed workflow runs as well - I&rsquo;m getting these.">
 
 <meta itemprop="wordCount" content="189">
-
-
-
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Contributing"/>
 <meta name="twitter:description" content="Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.
@@ -43,7 +42,7 @@ You can see the status of failing tests and builds at https://github.com/jyotish
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/dir_tree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -74,10 +73,8 @@ You can see the status of failing tests and builds at https://github.com/jyotish
     <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
     <script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
     <script src="/jyotisha/non_webpack_js/disqus.js"></script>
-    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/ui_lib-bundle.js"></script>
     <script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-    <script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-    <script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
 
     <link rel="stylesheet" href="/jyotisha/css/fonts.css">
     <link rel="stylesheet" href="/jyotisha/css/@fortawesome/fontawesome-free/css/solid.min.css">
@@ -147,7 +144,7 @@ You can see the status of failing tests and builds at https://github.com/jyotish
 
     
 <header class="p-1 bg-yellow noPrint">
-    <nav role="navigation" class="col">
+    <nav role="navigation">
       <div id="div_top_bar" class="row">
         <div class="col-md-3 justify-content-start">
           <a  href="/jyotisha/" class="btn col border">
@@ -195,10 +192,7 @@ You can see the status of failing tests and builds at https://github.com/jyotish
           </select>
           <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
           <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
-        </div>
-        <div class="row col  d-flex justify-content-center">
           <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
-          <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
           <a href="full_search"  class="btn btn-secondary">🥽🔦</a>
@@ -207,24 +201,6 @@ You can see the status of failing tests and builds at https://github.com/jyotish
         </div>
         <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
         </ul>
-      </div>
-      <div id="audioOptionsDiv" class="row justify-content-center" hidden>
-        <select id="voices" class="form-select bg-secondary text-light"></select>
-        <div>
-          <p class="lead">Vol</p>
-          <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
-          <span id="volume-label" class="ms-2">1</span>
-        </div>
-        <div class="mx-5">
-          <p class="lead">Rate</p>
-          <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
-          <span id="rate-label" class="ms-2">1</span>
-        </div>
-        <div>
-          <p class="lead">Pitch</p>
-          <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
-          <span id="pitch-label" class="ms-2">1</span>
-        </div>
       </div>
     </nav>
 </header>
@@ -262,9 +238,6 @@ You can see the status of failing tests and builds at https://github.com/jyotish
         </ul>
       </div>
     </details>
-    <div id="progressBarDiv" class="row d-flex justify-content-center">
-      🐎💪<progress id="progressLoading" value="0" max="100"> 32% </progress>
-    </div>
   </aside>
   <div id="post_content">
   <p>Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.</p>
@@ -345,7 +318,7 @@ pip install git+https://github.com/jyotisham/jyotisha/@master --target=./test_in
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Feb 18 13:49:44 UTC. (<a href="http://google.com/search?q=13%3a49%3a44%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Feb 18 13:55:37 UTC. (<a href="http://google.com/search?q=13%3a55%3a37%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
