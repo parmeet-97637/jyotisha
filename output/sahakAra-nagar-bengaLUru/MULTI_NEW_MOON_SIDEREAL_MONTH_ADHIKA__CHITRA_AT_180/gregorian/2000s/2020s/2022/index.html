@@ -26,7 +26,7 @@
 <meta itemprop="name" content="2022">
 <meta itemprop="description" content="00 Intro Related files  ics  Computation parameters  🌏क्षेत्रम् (सहकार-नगरम्, कल्याणपुरी)  Basic parameters lunar_month_assigner_type = &quot;MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA&quot; ayanaamsha_id = &quot;CHITRA_AT_180&quot; jsonClass = &quot;ComputationSystem&quot; [graha_lopa_measures] jsonClass = &quot;GrahaLopaMeasures&quot; [graha_lopa_measures.graha_id_to_lopa_measure] jupiter = 11 venus = 9 mercury = 13 mars = 17 saturn = 15 Event options aparaahna_as_second_half = false prefer_eight_fold_day_division = false julian_handling = &quot;converted to Gregorian&quot; jsonClass = &quot;FestivalOptions&quot;  Repos: devatA/gaNapati, devatA/graha, devatA/kaumAra, devatA/lakShmI, devatA/misc-fauna, devatA/misc-flora, devatA/nadI, devatA/pitR, devatA/shaiva, devatA/shakti, devatA/devIparva, devatA/dashamahAvidyA, devatA/umA, devatA/vaiShNava, gRhya/Apastamba, gRhya/general, general, mahApuruSha/ALvAr, mahApuruSha/RShi, mahApuruSha/general-indic-non-tropical, mahApuruSha/kAnchI-maTha, mahApuruSha/general-indic-tropical, mahApuruSha/general, mahApuruSha/sci-tech, mahApuruSha/zRGgErI-maTha, mahApuruSha/mAdhva-misc, mahApuruSha/nAyanAr, mahApuruSha/sangIta-kRt, mahApuruSha/smArta-misc, mahApuruSha/vaiShNava-misc, mahApuruSha/xatra, mahApuruSha/xatra-later, tamil, temples/Andhra, temples/Kerala, temples/North, temples/Odisha, temples/Tamil, temples/venkaTAchala, time_focus/Eclipses, time_focus/amrita-siddhi, time_focus/Rtu, time_focus/misc, time_focus/misc_combinations, time_focus/special-tithis, time_focus/tithi-vara-combinations, time_focus/monthly/amAvAsyA, time_focus/monthly/dvAdashI, time_focus/monthly/ekAdashI, time_focus/monthly/pradoSha, time_focus/nakShatra, time_focus/puShkara, time_focus/sankrAnti, time_focus/yugAdiH  2022-01 2022-01-01 मार्गशीर्षः-09-28 , वृश्चिकः-ज्येष्ठा🌛🌌 , धनुः-पूर्वाषाढा-09-17🌞🌌 , सहस्यः-10-11🌞🪐 , शनिः  Indian civil date: 1943-10-11, Islamic: 1443-05-27 Jumādā al-ʾAwwal/ʾŪlā, 🌌🌞: सं- धनुः, तं- मार्गऴि, म- धनु, प- पोह, अ- पोह संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — हेमन्तऋतुः उत्तरायणम् 🌌🌞सौरमानम् — हेमन्तऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — हेमन्तऋतुः मार्गशीर्षः   खचक्रस्थितिः  |🌞-🌛|तिथिः — कृष्ण-त्रयोदशी►07:17; कृष्ण-चतुर्दशी►27:42*; अमावास्या► 🌌🌛नक्षत्रम् — ज्येष्ठा►19:15; मूला► (धनुः) 🌌🌞सौर-नक्षत्रम् — पूर्वाषाढा►  राशि-मासः — मार्गशीर्षः►      🌛&#43;🌞योगः — गण्डः►13:51; वृद्धिः► २|🌛-🌞|करणम् — वणिजः►07:17; विष्टिः►17:30; शकुनिः►27:42*; चतुष्पात्► 🌌🌛- चन्द्राष्टम-राशिः—वृषभः 🌞-🪐 अमूढग्रहाः - बुधः (-17.">
 
-<meta itemprop="wordCount" content="150236">
+<meta itemprop="wordCount" content="150252">
 
 
 
@@ -37,7 +37,7 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dir_tree-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -68,8 +68,10 @@
     <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
     <script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
     <script src="/jyotisha/non_webpack_js/disqus.js"></script>
-    <script src="/jyotisha/webpack_dist/ui_lib-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
     <script src="/jyotisha/webpack_dist/search-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
 
     <link rel="stylesheet" href="/jyotisha/css/fonts.css">
     <link rel="stylesheet" href="/jyotisha/css/@fortawesome/fontawesome-free/css/solid.min.css">
@@ -139,7 +141,7 @@
 
     
 <header class="p-1 bg-yellow noPrint">
-    <nav role="navigation">
+    <nav role="navigation" class="col">
       <div id="div_top_bar" class="row">
         <div class="col-md-3 justify-content-start">
           <a  href="/jyotisha/" class="btn col border">
@@ -187,7 +189,10 @@
           </select>
           <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
           <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+        </div>
+        <div class="row col  d-flex justify-content-center">
           <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
           <a href="full_search"  class="btn btn-secondary">🥽🔦</a>
@@ -196,6 +201,24 @@
         </div>
         <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
         </ul>
+      </div>
+      <div id="audioOptionsDiv" class="row justify-content-center" hidden>
+        <select id="voices" class="form-select bg-secondary text-light"></select>
+        <div>
+          <p class="lead">Vol</p>
+          <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+          <span id="volume-label" class="ms-2">1</span>
+        </div>
+        <div class="mx-5">
+          <p class="lead">Rate</p>
+          <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+          <span id="rate-label" class="ms-2">1</span>
+        </div>
+        <div>
+          <p class="lead">Pitch</p>
+          <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+          <span id="pitch-label" class="ms-2">1</span>
+        </div>
       </div>
     </nav>
 </header>
@@ -233,6 +256,9 @@
         </ul>
       </div>
     </details>
+    <div id="progressBarDiv" class="row d-flex justify-content-center">
+      🐎💪<progress id="progressLoading" value="0" max="100"> 32% </progress>
+    </div>
   </aside>
   <div id="post_content">
   <h2 id="00-intro">00 Intro</h2>
@@ -21643,9 +21669,10 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="२००८-वरष-करणवतय-वसफट-१४">२००८ वर्षे कर्णावत्यां विस्फोटाः #१४</h5>
 <p>Event occured on 2008-07-26 (gregorian).</p>
 <p>On this day, 21 synchronised bomb blasts took place within a span of few minutes - around 56 died, and 200 injured. Diabolically, 2 blasts took place inside the premises of two hospitals, about 40 minutes after the initial series of blasts. One of the blasts in the hospitals occurred when injured victims of the initial series of blasts were being admitted there. Several bombs were defused in the succeding hours.</p>
+<h6 id="context-17">Context</h6>
 <p>Carried out by Indian Mujahideen, an offshoot of Students Islamic Movement of India. In their email traced to Mumbai, they said: &ldquo;In the name of Allah the Indian Mujahideen strike again! Do whatever you can, within 5 minutes from now, feel the terror of Death!”.</p>
 <p>This came after May 13 Jaipur bombings (63 killed), 25 July bengaLUru bombings and was followed by Delhi bombings.</p>
-<p>Maulana Abdul Halim, a SIMI mastermind, was arrested a few days later. Several others were later arrested.</p>
+<p>Maulana Abdul Halim, a SIMI mastermind, was arrested a few days later. Several others were later arrested. In 2022, 38 Muslim terrorists were awarded death penalty, while 11 were given life imprisonment.</p>
 <h6 id="details-861">Details</h6>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/26/ahmedAbAd-blasts-2008.toml">Edit config file</a></li>
@@ -23213,7 +23240,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <p>The Dutch continued fighting for a bit from Kanyakumari, Paravur and AyirUr. They gave up on kanyAkumArI in October.</p>
 <p>Soon after the surrender, Marthanda Varma imprisoned high level European officers and native Christian collaborators. The Travancore forces captured a large number of muskets and some cannons. Later, Marthanda Varma gave them their weapons back, and asked them to join the Travancore army. Some, including Admiral De Lannoy and Duyvenschot accepted.</p>
 <p>D&rsquo;lennoy served for two decades, rising to the post of the Valiya kappithan (Senior Captain) and was buried at udayagiri fort (aka Dillanai koTai/ D&rsquo;lennoy fort). De Lannoy was initially entrusted with the training of a few companies of the Maharajah&rsquo;s bodyguards and he did this with such an excellence that he was entrusted with modernizing the entire Travancore army - introducing better firearms, artilary and drills. He was one of the commanders of the Tranvancore army during the decisive battle of Ambalapuzha where his erstwhile employers were fighting on behalf of Cochin and her allies. He also built the Nedumkottai, a line of fortifications in the north of the kingdom, which stopped the French trained army of Tipu Sultan in 1789. This more effective army annexed Kollam (Quilon), Kayamkulam, Kottarakkara, Pandalam, Ambalapuzha, Edappalli, Thekkumkoor and Vadakkumkoor to lord padmanAbha&rsquo;s kingdom.</p>
-<h6 id="context-17">Context</h6>
+<h6 id="context-18">Context</h6>
 <p>In 1730s, mArtANDa varma started annexing and consolidating keraLa kingdoms. He refused to honor Duch monopoly agreements with the conquered kingdoms. In January 1739, Gustaaf Willem van Imhoff, the Dutch Governor of Ceylon, visited Kochi, and in a July report, he recommended military action. Later that year, the Dutch organised an alliance of the rulers of Kochi, Thekkumkur, Vadakkumkur, Purakkad, Kollam, and Kayamkulam.  Van Imhoff personally met Marthanda Varma to negotiate peace under Dutch terms. The Sun lord refused and replied that he had been thinking about invading Europe some day!!</p>
 <p>In late 1739, the Dutch command at Malabar declared war on Travancore, without obtaining permission or waiting for reinforcements from Batavia. Captain Johannes Hackert came from Lanka with some troops. Dutch + allies scored several victories and forced the Travancore army stationed near Kollam to retreat. British East India Company chief at Anchuthengu congratulated the Dutch. By early December, the Dutch and their allies marched towards Attingal and Varkala. When the Travancore army withdrew to check an invasion by French ally Chanda Sahib of Arcot in the south, the allies achieved further military successes.</p>
 <p>In November 1740, the Dutch command in Malabar asked for more inforcements from Lanka, and launched a second campaign. By padmanAbha&rsquo;s grace, mArtANDa&rsquo;s army captured several dutch outposts. A small dutch force landed at kulachchal/ colachel and started fortifying. On 26 November, the Dutch sent two large ships and three sloops to Colachel, bombarding the coast.  On 29 November, the Dutch commander van Gollenesse announced a complete blockade of the Travancore coast around Colachel (except English ships). On 13 January 1741, the Dutch ship Maarseveen was sent southwards, to be anchored between Thengapattanam and Colachel. On 10 February, another Dutch expedition comprising seven large ships and several smaller vessels landed just north of Colachel. Dutch forces started capturing the nearby villages, and marched towards Eraniel. To effectively control the newly-conquered territories, the Dutch were expecting reinforcements to arrive from Ceylon and Batavia, but the Company Government at Batavia could not spare any reserve forces because of the Java War.</p>
@@ -23311,7 +23338,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <p>After the hanging, the funeral procession went through the city, with police guards holding back the crowd all along the central artery street. The people kept throwing their flowers on the body as the carriage passed by.</p>
 <p>The actions of khudIrAm and Prafulla were defended by many nationalists (including BG Tilak, who was promptly arrested on sedition charges).</p>
 <p>After martyrdom, Khudiram became so popular that weavers of Bengal started weaving a special type of dhoti, with &lsquo;Khudiram&rsquo; written on its side. Boys studying in school colleges wore these dhotis and stitched and walked on the path of independence.</p>
-<h6 id="context-18">Context</h6>
+<h6 id="context-19">Context</h6>
 <p>khudIrAm and Prafulla Chaki had tried to assassinate the notorious British judge Douglas Kingsford - but their bomb ended up killing two British women instead.</p>
 <p>He had been arrested by constables Fateh Singh, and Shiv prasAd Singh near the Waini railway station (now named after him). On 1 May, he was brought to Muzaffarpur by train - a crowd awaited to see him - he cheerfully cried &lsquo;vandE mAtaram&rsquo;. Narendrakumar Basu had came to Khudiram&rsquo;s defence and mounted a very strong case in his defence (redirecting the main blame to the older prafulla and invalidating khudIrAm&rsquo;s initial statement), but failed.</p>
 <p>When he was sentenced to death, his spontaneous reaction was to smile. The judge, surprised, asked Khudiram whether he had understood the meaning of the pronounced sentence. Khudiram replied that he surely had. When the judge asked him again whether he had anything to say, in front of a packed audience, Khudiram replied with the same smile that if he could be given some time, he could teach the judge the skill of bomb-making. Khudiram refused to appeal - but was persuaded to go along by the defence team.</p>
@@ -23683,7 +23710,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="मणपर-रजनरवसनम-१३१">मणिपुरे राजनिर्वासनम् #१३१</h5>
 <p>Event occured on 1891-08-13 (gregorian).</p>
 <p>13 August is celebrated as Patriots Day in Manipur. At 5PM on this day in 1891, at the end of Anglo-maNipur war crown Prince Tikendrajit, Gen Thangal along with 3 others were hanged by the British at Kangjeibung, the oldest pologround in the world, just outside the palace. King Kulachandra was exiled to Kala Pani.</p>
-<h6 id="context-19">Context</h6>
+<h6 id="context-20">Context</h6>
 <p>After Maharaja Chandrakriti&rsquo;s death in 1886, his son Surachandra Singh succeeded him. As in previous occasions, several claimants to the throne tried to unsettle the new king. Tikendrajit and Kulachandra Singh (two of the king&rsquo;s brothers) succeeded. Kulachandra Singh became king, while Tikendrajit Singh the senApati holding real power. Surachandra Singh, once safely away, asked for British help. British decided to recognize Kulachandra Singh as Raja, and punish Tikendrajit for the coup. on 22 March 1891 with a troop of 400 soldiers under Colonel Skene and asked Raja Kulachandra Singh to hand over Tikendrajit. maNipuri forces fought - five British officers were killed. On 31 March 1891 the British Government sent a military force against Manipur formed by three army columns. British won and took the palace on 27th April. Churachand Singh, a minor was placed on the throne of Manipur. Tikendrajit and other leaders of Manipur subsequently went underground. Tikendrajit was arrested in the evening of 23 May and sentened to death.</p>
 <h6 id="details-962">Details</h6>
 <ul>
@@ -23781,7 +23808,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="सकरद-दरह-७४">स्कर्दु-द्रोहः #७४</h5>
 <p>Event occured on 1948-08-14 (gregorian).</p>
 <p>On this day, Skardu was lost to betrayal by muslim-dominated Gilgit Scouts.</p>
-<h6 id="context-20">Context</h6>
+<h6 id="context-21">Context</h6>
 <p>With the betrayal at Gilgit, the command of 6 J&amp;K Infantry now devolved on Major Sher Jung Thapa. Skardu was east of Gilgit and an important town. 6 J&amp;K infantry, was spread out thinly in penny packets from Leh to Bunji. Capt Ganga Singh commanded two platoons at Kargil, which entirely comprised of Sikhs. Skardu itself was held by two platoons under Capt Nek Alam with entirely Muslim soldiers.</p>
 <p>Thapa was at Leh when Gilgit fell and he was ordered to March to Skardu with whatever troops available. He arrived there on 3rd December and immediately noticed the hostile environment. He sought permission to withdraw the garrison and the civil administration to Kargil and also requested reinforcements. The request for withdrawal was turned down and he was asked &ldquo;to hold to last man and last round&rdquo;. Gilgit Scouts and raiders were moving towards Skardu. By mid-February, Skardu received some small reinforcements from Srinagar.</p>
 <p>Thapa had 130 non-Muslim and 31 Muslim troops in Skardu now. He had deployed Nek Alam and his Muslim platoon 32 km towards west, on the road from Gilgit, which followed the river. Another platoon of Sikhs was positioned on the other bank of the river. This was at a place called Tsari. By the start of February, tribesmen and the traitors from 6 J&amp;K Infantry had completed all the plans to capture Skardu.</p>
@@ -23910,7 +23937,7 @@ A few years after shivAjI&rsquo;s escape, rAmasiMha was sent by Awrangzeb to cap
 <h5 id="महबलकर-सनध-२६९">महाबलिकर-सन्धिः #२६९</h5>
 <p>Event occured on 1753-08-15 (gregorian).</p>
 <p>On this day, Duch East India Company submitted to a peace treaty with mArtANDa varma of tirvanantapuram - abandoning all hopes of political and commercial dominance in keraLa, agreeing not to obstruct the Raja&rsquo;s expansion, and in turn, to sell to him arms and ammunition.</p>
-<h6 id="context-21">Context</h6>
+<h6 id="context-22">Context</h6>
 <p>In 1730s, mArtANDa varma started annexing and consolidating keraLa kingdoms. Dutch tried to stop him, but lost crucial battles. Some prominent dutch prisoners had switched to serving and upgrading mArtANDa varma&rsquo;s army.</p>
 <h6 id="details-972">Details</h6>
 <ul>
@@ -23984,7 +24011,7 @@ A few years after shivAjI&rsquo;s escape, rAmasiMha was sent by Awrangzeb to cap
 <h5 id="direct-action-day-हतय-७६">direct-action-day-हत्याः #७६</h5>
 <p>Event occured on 1946-08-16 (gregorian).</p>
 <p>Direct Action Day, a Ramzaan Friday, was a day of nationwide protest by the Indian Muslim community announced by Jinnah. The day also marked the start of what is known as The Week of the Long Knives aka 1946 Calcutta Killings. More than 4k people lost their lives, 11k were seriously injured and 100k residents were left homeless in Calcutta within 72 hours.</p>
-<h6 id="context-22">Context</h6>
+<h6 id="context-23">Context</h6>
 <p>The Muslim League were demanding a separate independent states since their 1940 Lahore resolution. In 1946, they&rsquo;d agreed to a three-tier structure: a centre, groups of provinces, and provinces. In July 1946, it withdrew its agreement to the plan and announced a general strike (hartal) on 16 August.</p>
 <p>By 1940, Muslim League &ldquo;volunteer corps&rdquo; / private army had 4154 members according to a British report. Since the 11–14 February 1946 riots in Calcutta, communal tension had been high. Following Jinnah&rsquo;s declaration the Muslim League government announced a general holiday - despite Congress protests. On 14 August, Kiron Shankar Roy called on Hindu shopkeepers to keep their businesses open. Muslim newspapers (eg Star of India) published the programme for the day detailing procession routes. Muslim League branches were advised to depute three workers in every mosque in every ward to explain the League&rsquo;s action plan before Juma prayers - with clear comparisons to Prophet Muhammad&rsquo;s conquest of Mecca and establishment of the kingdom of Heaven in Arabia.</p>
 <p>On the day, Muslim crowds (30-50k by 4PM) gathered at a maidAn. During Suhrawardy&rsquo;s speech, he said that the military and police were restrained (though police did not receive any such order). Prominent Muslim League leaders (including Suhrawardy) later spent a great deal of time in police control rooms directing operations and obstructing police duties - but the British Governor did not stop them.</p>
@@ -25499,7 +25526,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="घशरम-हत-२३१">घाशीरामो हतः #२३१</h5>
 <p>Event occured on 1791-08-31 (gregorian).</p>
 <p>On this day, the kotwal of puNe, ghAshIrAm Savaldas, a kAnyakubja brAhmaNa, was stoned to death by other brAhmaNa-s in vengence for the death of 21 tailanga brAhmaNas because of being locked up in a suffocating tunnel for an entire day and night.</p>
-<h6 id="context-23">Context</h6>
+<h6 id="context-24">Context</h6>
 <p>Many brAhmaNas were in town for daxiNA. A curfew was in place, which some violated and allegedly indulged in rioting and unruly behavior. 35 were locked up. The prisoners remained in the cell for an entire day and a night and on the third morning, (an eminent chief named) Manaji Phakde (a cousin of Mahadji Sindia) was passing that way, when he heard noises. He then informed nAna of the tragedy.</p>
 <p>Peshwa mAdhava rAv, who was just coming of age, summoned Nana and asked how ghAshIrAm should be punished. As news spread, over a thousand Brahmins gathered outside Nana’s house. Nana sent (the chief judge) Ayya Shastri to meet them, but he was assaulted and his clothes torn off. Nana ordered the arrest of the kotwal (who had by now earned a reputation for tyranny). Peshwa ordered him dead. He was taken out of town, let loose and left to the mercy of the Brahmins following the procession.</p>
 <h6 id="details-1045">Details</h6>
@@ -26926,7 +26953,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="२००८-वरष-दहलय-वसफट-१४">२००८ वर्षे देहल्यां विस्फोटाः #१४</h5>
 <p>Event occured on 2008-09-13 (gregorian).</p>
 <p>On this day, 5 synchronised bomb blasts took place within a span of few minutes - around 30 died, and 100 injured. Carried out by Indian Mujahideen, an offshoot of Students Islamic Movement of India. In their arbi hindi email, they said: &ldquo;This time with the Message of Death, dreadfully terrorising you for your sins. And thus our promise will be fulfilled. Inshallah&hellip;Do whatever you want.&rdquo;</p>
-<h6 id="context-24">Context</h6>
+<h6 id="context-25">Context</h6>
 <p>This came after May 13 Jaipur bombings (63 killed), 25 July bengaLUru bombings and 26 July Ahmedabad bombings (56 killed).</p>
 <h6 id="aftermath-20">Aftermath</h6>
 <p>Several people (many engineers, scrap dealer, hotlier) were arrested. Abdul Qureshi (Quraysh = Islamic prophet&rsquo;s tribe) aka Al Arabi, a SIMI activist with IT background was alleged to be closely involved. He was arrested after a gun fight in 2018.</p>
@@ -30237,7 +30264,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 On the way, he also assumed command of two companies sent earlier to relieve the besieged garrison. He deployed the Muslim Company on perimeter defense duty outside the Fort and told the Gorkhas to rest. Nasarullah Khan then called a meeting of all Muslim officers and JCOs and hatched a plan to eliminate the non-Muslim elements. During the night, the Muslim Company mercilessly butchered the sleeping Gorkhas! The Gorkha Commander, Captain Prem Singh was strangled to death by Muslim brother officers of his own battalion. Two Gorkha JCOs and 30 Other Ranks (OR) managed to escape the massacre.</p>
 <p>####### The fort
 Major Nasarullah Khan then led the Muslim troops inside the Tharochhi Fort where the garrison, was unaware of the developments of the night before and received the relieving column with joy. And at night, the unsuspecting Gorkhas were all murdered in a repeat performance. Their commander, Captain Raghubir Singh Thapa was tortured to death!</p>
-<h6 id="context-25">Context</h6>
+<h6 id="context-26">Context</h6>
 <p>Such betrayal by almost all the Muslim soldiers in the Maharaja’s army led to the crisis which followed.</p>
 <h6 id="details-1259">Details</h6>
 <ul>
@@ -30317,7 +30344,7 @@ Major Nasarullah Khan then led the Muslim troops inside the Tharochhi Fort where
 <h5 id="वर-पणडय-कटट-बरहम-हत-२२३">वीर-पाण्ड्य-कट्ट-ब्रह्मो हतः #२२३</h5>
 <p>Event occured on 1799-10-16 (gregorian).</p>
 <p>Veerapandya Kattabomman was hanged to death by the British from a tamarind tree at Kayathar on this date in 16 October 1799. Thread on one of the great freedom fighters, who would be an inspiration to many revolutionaries in Tamil Nadu. He was 39.</p>
-<h6 id="context-26">Context</h6>
+<h6 id="context-27">Context</h6>
 <p>After 1781, British took over navAb of Arkot&rsquo;s finances, and then his army. Thence they went from strength to strength. kaTTabomman, an able warrior from an Andhra-origin family, was adapted and crowned as the ruler on February 2, 1790 by Jagaveera Pandya of Veerapandiyapuram. He repudiated British demands for humble subordination and taxes. British however successfully managed to wean away most of his neighbouring allies, ultimately went to war and won owing to superior military and finiancial might. After repeated attempts, they successfully captured him.</p>
 <p>In the trial that followed, Kattabomman, refused to give up on his self respect, and accused the British of illegal, immoral occupation. When the British offered him amnesty, if he asked for a pardon, Kattabomman shot back - &ldquo;Do what you want cowards&rdquo;.</p>
 <h6 id="aftermath-24">Aftermath</h6>
@@ -31207,7 +31234,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="मरत-पणडय-हतय-२२१">मरुत्-पाण्ड्य-हत्या #२२१</h5>
 <p>Event occured on 1801-10-24 (gregorian).</p>
 <p>On this day, the British hung Periya and Chinna Marudhu pANDiyas of shivagangA, tamiL-nADu at Tiruppattur fort.</p>
-<h6 id="context-27">Context</h6>
+<h6 id="context-28">Context</h6>
 <p>In 1772, Muhammad Ali Khan Wallajah, (the Nawab of Arcot) had killed Muthuvaduganatha Thevar over his refusal to pay taxes. However Marudhu Pandiyars and Queen Velunachiyar escaped, and stayed with Gopala Nayak in Virupakshipuram for 8 years. After this time, an alliance of kingdoms led by the Pandiyar attacked Sivagangai and retook it in 1789. Both Maruthu Pandiyars were given high positions in the kingdom.</p>
 <p>After 1781, British took over navAb of Arkot&rsquo;s finances, and then his army. Thence they went from strength to strength. The brothers participated in guerilla war against them. They ultimately captured and hung the marudu brothers.</p>
 <h6 id="aftermath-25">Aftermath</h6>
@@ -31473,7 +31500,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="भरतन-कशमर-परपत-७५">भारतेन काश्मीर-प्राप्तिः #७५</h5>
 <p>Event occured on 1947-10-26 (gregorian).</p>
 <p>On this day, mahArAja Hari Singh signed the Instrument of Accession and joined India.</p>
-<h6 id="context-28">Context</h6>
+<h6 id="context-29">Context</h6>
 <p>jihAdis from pAkistAn, with local support had invaded, overrun the small dogra army, conducted massaccres of non-Muslims, declared &ldquo;Azad&rdquo; Kashmir on 24 October. In 1947, Kashmir&rsquo;s population was &ldquo;77% Muslim and 20% Hindu&rdquo;. Maharaja appealed to the Government of India for assistance, and the Governor-General Lord Mountbatten agreed on the condition that the ruler accede to India.</p>
 <h6 id="aftermath-26">Aftermath</h6>
 <p>Indian soldiers entered Kashmir and drove the pAki jihAdis from all but a small section of the state.</p>
@@ -31601,7 +31628,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="रजनदरसह-वरगत-७५">राजेन्द्रसिंह-वीरगतिः #७५</h5>
 <p>Event occured on 1947-10-27 (gregorian).</p>
 <p>On this day, Brigadier Rajinder Singh, chief of kAshmIri Maharaja Hari Singh&rsquo;s army, died delaying pAkistani invaders before Indian army arrived.</p>
-<h6 id="context-29">Context</h6>
+<h6 id="context-30">Context</h6>
 <p>On 22 October 1947, Maharaja Hari Singh gave his Chief of Army Staff, Brigadier Rajinder Singh, the order to defend the state until Indian troops arrived, that he should fight till death in doing so, &ldquo;save the state till the last man and the last bullet&rdquo;. Doubtful of  Poonchie Muslim soldiers&rsquo; loyalty, he set off with a few men and outdated weapons, fighting against numerically superior and better armed invaders. Destroying bridges and placing defensive positions while slowly retreating, he successfully delayed the enemy. The Brigadier&rsquo;s driver was killed so the Brigadier drove himself; however soon after he was also mortally wounded. The Brigadier ordered his men to continue ahead with the planned defensive strategy, and leave him where he was. Nothing more was heard of Brigadier Rajinder Singh. His men continued the fight until the next day, but nearly all were killed soon after.</p>
 <h6 id="aftermath-27">Aftermath</h6>
 <p>The delay the Brigadier and his men caused the raiders, a delay of nearly 4 days, was enough for diplomatic decisions to be taken and for the Indian Army to arrive. For his rearguard last-stand actions, Brigadier Rajinder Singh is remembered as the &ldquo;Saviour of Kashmir&rdquo;. Brigadier Rajinder&rsquo;s native hometown of Bagoona has been renamed as Rajinderpura.</p>
@@ -33432,7 +33459,7 @@ Marathas: 500</p>
 <h5 id="तरवननतपर-दवयतन-परवश-घषण-८७">तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८७</h5>
 <p>Event occured on 1935-11-12 (gregorian).</p>
 <p>On this day, Maharaja Chithira Thirunal Balarama Varma of Travancore issued the  Temple Entry Proclamation.</p>
-<h6 id="context-30">Context</h6>
+<h6 id="context-31">Context</h6>
 <p>Kerala is a rare state where caste discrimination actually led to conversion to abrahamist faiths because converts got more rights than low jAti-s. In other states, the primary factor in conversion was and remains selectively targetted allurements, supposed miracles and threats.</p>
 <p>Vaikom Satyagraha protests sought equal rights of access in areas previously restricted to members of upper castes. The protests expanded to become a movement seeking rights of access to the interior of the temples themselves. Regent Maharani Sethu Lakshmi Bayi yielded partly - deferring to her minor nephew (who supposedly assured gAndhI on his own will).</p>
 <h6 id="implementation">Implementation</h6>
@@ -34345,7 +34372,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="तग-बहदर-हतय-३४७">तेग-बहादुर-हत्या #३४७</h5>
 <p>Event occured on 1675-11-21 (gregorian). Julian date was converted to Gregorian in this reckoning.</p>
 <p>tyAga-malla, aka guru tegh bahAdur, father of guru govind singh, was beheaded  on this day by Jalal-ud-din Jallad on Awrangzeb&rsquo;s orders under a banyan tree opposite the Sunheri Masjid near the Kotwali in Chandni Chowk, Delhi, were he&rsquo;d been imprisoned.</p>
-<h6 id="context-31">Context</h6>
+<h6 id="context-32">Context</h6>
 <p>tyAgamalla had been arrested with some of his followers, including the mohyAl brAhmins Bhai Mati Das and Bhai Sati Das. They refused to convert to Islam. Bhai Mati Das was made to stand erect between two posts and a double headed saw was placed on his head and he was sawed from his head to his loins.</p>
 <h6 id="aftermath-32">Aftermath</h6>
 <p>His head was carried by Bhai Jaita to Anandpur, where the nine-year-old Guru Gobind Singh cremated it (The gurdwara at this spot is also called Gurdwara Sis Ganj Sahib). The body, before it could be quartered, was stolen under the cover of darkness by Lakhi Shah Vanjara, another disciple, who carried it in a cart of hay and cremated it by burning his hut. Gurdwara Sis Ganj Sahib, was built at Chandni Chowk at the site of the execution.</p>
@@ -36222,7 +36249,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="र-ललऽपहतसतर-रकषत-७६">रै-लीलाऽपहृतस्त्री रक्षति #७६</h5>
 <p>Event occured on 1946-12-09 (gregorian).</p>
 <p>On this day, Leela Roy reached Ramganj on 9 December, walking 90 miles on foot from Chaumohani in an effort to rescue kidnapped Hindu girls after the Noakhali riots. She recovered 1,307 abducted girls. Her organisation, the National Services Institute, set up 17 relief camps.</p>
-<h6 id="context-32">Context</h6>
+<h6 id="context-33">Context</h6>
 <p>Great numbers of Hindu women were gang-raped and kidnapped after the Noakhali riots. On 20 October, at a meeting of the Chattogram Mahila Sangha, the Chittagong branch of the All India Women&rsquo;s Conference, presided over by Nellie Sengupta, a resolution was passed that the organisation would work for the relief and recovery of the abducted Hindu women. The Noakhali Relief Committee was formed. From 26 October onwards, the committee began to send a group of volunteers led by Ashoka Gupta to Noakhali for relief operations on a weekly basis.</p>
 <p>In December, the Srihatta Mahila Sangha decided to send Kiranshashi Deb, Leela Dasgupta, Saralabala Deb and Suhasini Das to Noakhali for relief work.</p>
 <h6 id="details-1504">Details</h6>
@@ -36581,7 +36608,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <p>Observed on Maghā nakshatra of Vr̥ścikaḥ (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 1879 (Gregorian era).</p>
 <h6 id="event">Event</h6>
 <p>On 5 December, at his residence, माहेश्वर-s gathered to recite the द्राविड-स्तोत्र around him, knowing that the hour of his शिवपदप्राप्ति was fast approaching. Sporting रुद्राक्ष-s all over his person, sipping गङ्गाजल &amp; having applied the sacred ash from चिदम्बरम्, मदुरै, काशि &amp; तिरुचॆन्दूर्, he looked like a veritable शिवगण-नायक, who was merely in human guise on earth. At around 9 PM, he lifted his weak hands, one last time, to place upon his head as a humble salutation to the supreme god of gods &amp; then gave up his last breath.</p>
-<h6 id="context-33">Context</h6>
+<h6 id="context-34">Context</h6>
 <p>Śrī Nāvalar’s last public discourse was on आडि-स्वाति of the tamizh calendar in 1879, the गुरुपूजा of श्री-सुन्दरमूर्ति-नायनार्, the friend of महादेव. His health began to deteriorate over the next few months. The daily आत्मार्थ-पूजा he would do with so much devotion; he was unable to do it any longer &amp; a शिवाचार्य from वेदारण्यम् would do it on his behalf.</p>
 <h6 id="major-celebrations">Major celebrations</h6>
 <p>In सिंहपुरी, the गुरुपूजा of आऱुमुख-नावलर् (the day he attained शिवपद) is done without fail at शॆण्पक (चम्पक) विनायक temple every year on मघा-नक्षत्र of कार्त्तिका-मास as per the tamizh calendar.</p>
@@ -36832,7 +36859,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <h5 id="बनदल-गवनद-रव-वरगत-२६२">बुन्देल-गोविन्द-राव-वीरगतिः #२६२</h5>
 <p>Event occured on 1760-12-17 (gregorian).</p>
 <p>On this day, govinda-pant bundele with 500 men, on a foraging mission in the antarvedI, was surprised by an Afghan force near Meerut and killed. He was always known to be the greatest ‘Fund raiser’ of the Maratha Empire.</p>
-<h6 id="context-34">Context</h6>
+<h6 id="context-35">Context</h6>
 <p>The marATha-s were trapped in pAnIpat, encircled by afghans and allies after they crossed the yamunA.</p>
 <h6 id="aftermath-36">Aftermath</h6>
 <p>This was followed by the loss of a contingent of 2,000 Maratha soldiers who had left Delhi to deliver money and rations to Panipat.</p>
@@ -37937,7 +37964,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 <p>Two horses were shot from under Tipu, and he even got an arrow in the back. During the hasty retreat, Tipu fell back into the ditch twice before being helped out and the occasional lameness which he suffered until his death was reputedly the consequence. Tipu&rsquo;s sword, the palanquin, the dagger, the ring and many other personal effects fell into the ditch, and then into the hands of the minister keshava-dAsa.</p>
 <h6 id="aftermath-37">Aftermath</h6>
 <p>Humiliated Tipu vowed to take down &ldquo;the contemptible wall&rdquo;. The fine wall held up till 15th April. Then he managed a 1km wide breach after 1 month of sustained artillery fire and poured in - only to be foiled again at Alwaye river bank. He retreated by 24 May 1790 to defend his kingdom from British threat.</p>
-<h6 id="context-35">Context</h6>
+<h6 id="context-36">Context</h6>
 <p>The Dutch captive-turned general of padmanAbhapura&rsquo;s mArtANDa varma, De Lannoy, had built an excellent fortification from coast to mountain - neDuMkoTa. It had a 16 feet wide and 20 deep ditch. dharmarAja rAma varma had tried to get British help when Tipu&rsquo;s attack was imminent, but only got words. The Dutch, who&rsquo;d sold forts to rAma varma helped a bit - by sending an engineer von Krause, who was dispatched to the wall. He wrote an account of the battle.</p>
 <p>When Tipu attacked, he tried filling a small portion of the ditch with cotton sacks and moving in a small column via a narrow passage. At first the Mysoreans overpowered three batteries of the Lines but subsequently their flanks were subjected to fire from the woods. They were so surprised by the first round of fire that they fell into disorder. Then the well drilled nair army advanced and the confusion increased. Those Mysoreans who had not yet been trampled down by their horses while retreating found that the sacks with cotton, used for filling up the ditch when they set out, as well as some powder-barrels, had caught fire. This forced them to jump from the ramparts.</p>
 <h6 id="details-1562">Details</h6>
@@ -38125,7 +38152,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Feb 14 02:41:35 UTC. (<a href="http://google.com/search?q=02%3a41%3a35%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Feb 18 13:49:44 UTC. (<a href="http://google.com/search?q=13%3a49%3a44%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
