@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -39,7 +39,6 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -68,12 +67,7 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -155,7 +149,7 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -188,15 +182,15 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -234,10 +228,10 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -291,25 +285,25 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
 <li>Command line usage - can be invoked via some shell scripts at <a href="https://github.com/karthikraman/panchangam">karthik&rsquo;s panchaanga repo</a>. But these often go out of date - so you might need to debug them. See <a href="https://github.com/jyotisham/jyotisha/issues/10">this issue</a>.</li>
 </ul>
 <h4 id="sample-code-to-output-panchaanga">Sample code to output panchaanga</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Produce a panchaanga</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
-<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
-<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
-city <span style="color:#f92672">=</span> City(<span style="color:#e6db74">&#39;Chennai&#39;</span>, <span style="color:#e6db74">&#34;13:05:24&#34;</span>, <span style="color:#e6db74">&#34;80:16:12&#34;</span>, <span style="color:#e6db74">&#34;Asia/Calcutta&#34;</span>)
-panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672">.</span>get_panchaanga_for_civil_year(city<span style="color:#f92672">=</span>city, year<span style="color:#f92672">=</span><span style="color:#ae81ff">2021</span>, computation_system<span style="color:#f92672">=</span>ComputationSystem<span style="color:#f92672">.</span>TEST, allow_precomputed<span style="color:#f92672">=</span>False)
-
-<span style="color:#75715e">## Markdown</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
-<span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
-md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
-md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, content<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span>False)
-
-<span style="color:#75715e">## Tex</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.writer.tex.daily_tex_writer <span style="color:#f92672">import</span> emit
-<span style="color:#f92672">from</span> indic_transliteration <span style="color:#f92672">import</span> sanscript
-emit(panchaanga,
-     output_stream<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;/some/path.tex&#34;</span>, <span style="color:#e6db74">&#39;w&#39;</span>), languages<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;sa&#34;</span>, <span style="color:#e6db74">&#34;ta&#34;</span>], scripts<span style="color:#f92672">=</span>[sanscript<span style="color:#f92672">.</span>DEVANAGARI, sanscript<span style="color:#f92672">.</span>TAMIL])
-</code></pre></div><h3 id="api-usage">API usage</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Produce a panchaanga</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
+</span></span><span style="display:flex;"><span>city <span style="color:#f92672">=</span> City(<span style="color:#e6db74">&#39;Chennai&#39;</span>, <span style="color:#e6db74">&#34;13:05:24&#34;</span>, <span style="color:#e6db74">&#34;80:16:12&#34;</span>, <span style="color:#e6db74">&#34;Asia/Calcutta&#34;</span>)
+</span></span><span style="display:flex;"><span>panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672">.</span>get_panchaanga_for_civil_year(city<span style="color:#f92672">=</span>city, year<span style="color:#f92672">=</span><span style="color:#ae81ff">2021</span>, computation_system<span style="color:#f92672">=</span>ComputationSystem<span style="color:#f92672">.</span>TEST, allow_precomputed<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Markdown</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
+</span></span><span style="display:flex;"><span>md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
+</span></span><span style="display:flex;"><span>md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, content<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Tex</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.writer.tex.daily_tex_writer <span style="color:#f92672">import</span> emit
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> indic_transliteration <span style="color:#f92672">import</span> sanscript
+</span></span><span style="display:flex;"><span>emit(panchaanga,
+</span></span><span style="display:flex;"><span>     output_stream<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;/some/path.tex&#34;</span>, <span style="color:#e6db74">&#39;w&#39;</span>), languages<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;sa&#34;</span>, <span style="color:#e6db74">&#34;ta&#34;</span>], scripts<span style="color:#f92672">=</span>[sanscript<span style="color:#f92672">.</span>DEVANAGARI, sanscript<span style="color:#f92672">.</span>TAMIL])
+</span></span></code></pre></div><h3 id="api-usage">API usage</h3>
 <ul>
 <li>Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
 <ul>
@@ -383,7 +377,7 @@ emit(panchaanga,
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -395,7 +389,7 @@ emit(panchaanga,
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

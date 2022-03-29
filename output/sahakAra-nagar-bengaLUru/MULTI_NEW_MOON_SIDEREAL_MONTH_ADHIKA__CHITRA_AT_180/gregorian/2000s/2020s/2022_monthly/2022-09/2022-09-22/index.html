@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -28,7 +28,7 @@
 <meta itemprop="name" content="2022-09-22">
 <meta itemprop="description" content="भाद्रपदः-06-27 , कर्कटः-आश्रेषा🌛🌌 , कन्या-उत्तरफल्गुनी-06-06🌞🌌 , नभस्यः-06-31🌞🪐 , गुरुः  Indian civil date: 1944-06-31, Islamic: 1444-02-25 Ṣafar, 🌌🌞: सं- कन्या, तं- पुरट्टासि, म- कन्नि, प- अस्सू, अ- आहिन संवत्सरः - शुभकृत् वर्षसङ्ख्या 🌛- शकाब्दः 1944, विक्रमाब्दः 2079, कलियुगे 5123    🪐🌞ऋतुमानम् — वर्षऋतुः दक्षिणायनम् 🌌🌞सौरमानम् — वर्षऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — वर्षऋतुः भाद्रपदः   खचक्रस्थितिः  |🌞-🌛|तिथिः — कृष्ण-द्वादशी►25:18*; कृष्ण-त्रयोदशी► 🌌🌛नक्षत्रम् — आश्रेषा►26:00*; मघा► (सिंहः) 🌌🌞सौर-नक्षत्रम् — उत्तरफल्गुनी►  राशि-मासः — भाद्रपदः►      🌛&#43;🌞योगः — शिवः►09:39; सिद्धः► २|🌛-🌞|करणम् — कौलवः►12:30; तैतिलः►25:18*; गरः► 🌌🌛- चन्द्राष्टम-राशिः—मकरः    🌞-🪐 मूढग्रहाः - बुधः (-2.">
 
-<meta itemprop="wordCount" content="698">
+<meta itemprop="wordCount" content="630">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2022-09-22"/>
 <meta name="twitter:description" content="भाद्रपदः-06-27 , कर्कटः-आश्रेषा🌛🌌 , कन्या-उत्तरफल्गुनी-06-06🌞🌌 , नभस्यः-06-31🌞🪐 , गुरुः  Indian civil date: 1944-06-31, Islamic: 1444-02-25 Ṣafar, 🌌🌞: सं- कन्या, तं- पुरट्टासि, म- कन्नि, प- अस्सू, अ- आहिन संवत्सरः - शुभकृत् वर्षसङ्ख्या 🌛- शकाब्दः 1944, विक्रमाब्दः 2079, कलियुगे 5123    🪐🌞ऋतुमानम् — वर्षऋतुः दक्षिणायनम् 🌌🌞सौरमानम् — वर्षऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — वर्षऋतुः भाद्रपदः   खचक्रस्थितिः  |🌞-🌛|तिथिः — कृष्ण-द्वादशी►25:18*; कृष्ण-त्रयोदशी► 🌌🌛नक्षत्रम् — आश्रेषा►26:00*; मघा► (सिंहः) 🌌🌞सौर-नक्षत्रम् — उत्तरफल्गुनी►  राशि-मासः — भाद्रपदः►      🌛&#43;🌞योगः — शिवः►09:39; सिद्धः► २|🌛-🌞|करणम् — कौलवः►12:30; तैतिलः►25:18*; गरः► 🌌🌛- चन्द्राष्टम-राशिः—मकरः    🌞-🪐 मूढग्रहाः - बुधः (-2."/>
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -321,26 +315,7 @@
 <hr>
 <h2 id="उतसव">उत्सवाः</h2>
 <ul>
-<li>यति-महालयम्, वन-रक्षक-वैष्णव-हत्या #२९२, हरिवासरः</li>
-</ul>
-<h3 id="हरवसर">हरिवासरः</h3>
-<ul>
-<li>→06:03</li>
-</ul>
-<p>The first quarter of dvādaśī tithi is not suitable for breaking fast (pāraṇa), and is known as harivāsaraḥ. Break fast once harivāsaraḥ is over.</p>
-<p>द्वादश्याः प्रथमः पादो हरिवासरसंज्ञितः।<br>
-तमतिक्रम्य कुर्वीत पारणं विष्णुतत्परः॥</p>
-<p>निवेदन-मन्त्रः (कात्यायनः)&mdash;<br>
-अज्ञानतिमिरान्धस्य व्रतेनानेन केशव।<br>
-प्रसीद सुमुखो नाथ ज्ञानदृष्टिप्रदो भव॥</p>
-<p>वैद्यनाथदीक्षितीये तिथिनिर्णयकाण्डे विष्णुधर्मे&mdash;<br>
-असम्भाष्यांस्तु सम्भाष्य तुलस्यतसिकादलम्।<br>
-द्वादश्यामच्युतफलम् आगस्त्यं पत्रमेव वा।<br>
-आमलक्याः फलं वापि पारणे प्राश्य शुद्ध्यति॥</p>
-<h4 id="details">Details</h4>
-<ul>
-<li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml">Edit config file</a></li>
-<li>Tags: MonthlyVratam EkadashiVratam</li>
+<li>यति-महालयम्, वन-रक्षक-वैष्णव-हत्या #२९२</li>
 </ul>
 <h3 id="वन-रकषक-वषणव-हतय-२९२">वन-रक्षक-वैष्णव-हत्या #२९२</h3>
 <p>Event occured on 1730-09-22 (gregorian). Julian date was converted to Gregorian in this reckoning.</p>
@@ -351,14 +326,14 @@
 <p>The shocked tree-felling party left for Jodhpur with their mission unfulfilled. When the Maharaja Abhai Singh of Marwar heard about this, he was filled with remorse and came to the village to personally apologize to the people. He promised them that they would never again be asked to provide timber to the ruler, no khejri tree would ever be cut, and hunting would be banned near the Bishnoi villages. The proclamation, in a tAmra-patra, is displayed in a memorial.</p>
 <p>Later, memorials were erected in memory of the martyrs - including a cenotaph, Khejarli Shahid Sthal, Jambheshwar sathari, aka amrita Devi vishnoismariti vatika. Every year fair is take place on bhAdrapada-shukla-dashamI. To remember their sacrifice, the government declared September 11 as National Forest Martyrs’ Day.</p>
 <p>The Khejarli story inspired another environmental movement—the Chipko Andolan (1973) in the Tehri-Garhwal Himalaya. This, in turn, spawned the Jungle Bachao Andolan (1982) in Bihar and Jharkhand, the Appiko Chaluvali (1983) in the Western Ghats of Karnataka, and other similar protests. The ‘tree-hugging’ tactic of the Chipko Andolan and its messages gained popularity in many countries beyond India’s borders, leading to protests in Switzerland, Japan, Malaysia, The Philippines, Indonesia and Thailand.</p>
-<h4 id="details-1">Details</h4>
+<h4 id="details">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical/julian/day/09/11/vana-raxaka-vaiShNava-hatyA.toml">Edit config file</a></li>
 <li>Tags:</li>
 </ul>
 <h3 id="यत-महलयम">यति-महालयम्</h3>
 <p>Observed on Kr̥ṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lunar) month (Aparāhṇaḥ/vyaapti).</p>
-<h4 id="details-2">Details</h4>
+<h4 id="details-1">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/06/27/yati-mahAlayam.toml">Edit config file</a></li>
 <li>Tags: SpecialPuja CommonFestivals CommonFestivals</li>
@@ -419,7 +394,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -431,7 +406,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

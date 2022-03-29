@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -28,7 +28,7 @@
 <meta itemprop="name" content="2022-03-14">
 <meta itemprop="description" content="फाल्गुनः-12-11 , कर्कटः-पुष्यः🌛🌌 , कुम्भः-पूर्वप्रोष्ठपदा-11-30🌞🌌 , तपस्यः-12-24🌞🪐 , सोमः  Indian civil date: 1943-12-23, Islamic: 1443-08-10 Shaʿbān, 🌌🌞: सं- कुम्भः, तं- मासि, म- कुंभं, प- फग्गण, अ- फागुन संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — शिशिरऋतुः उत्तरायणम् 🌌🌞सौरमानम् — शिशिरऋतुः उत्तरायणम् 🌛चान्द्रमानम् — शिशिरऋतुः फाल्गुनः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-एकादशी►12:05; शुक्ल-द्वादशी► 🌌🌛नक्षत्रम् — पुष्यः►22:06; आश्रेषा► (कर्कटः) 🌌🌞सौर-नक्षत्रम् — पूर्वप्रोष्ठपदा►  राशि-मासः — माघः►24:00*; फाल्गुनः►      🌛&#43;🌞योगः — अतिगण्डः►28:11*; सुकर्म► २|🌛-🌞|करणम् — विष्टिः►12:05; बवः►24:44*; बालवः► 🌌🌛- चन्द्राष्टम-राशिः—धनुः    🌞-🪐 मूढग्रहाः - गुरुः (6.">
 
-<meta itemprop="wordCount" content="697">
+<meta itemprop="wordCount" content="666">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2022-03-14"/>
 <meta name="twitter:description" content="फाल्गुनः-12-11 , कर्कटः-पुष्यः🌛🌌 , कुम्भः-पूर्वप्रोष्ठपदा-11-30🌞🌌 , तपस्यः-12-24🌞🪐 , सोमः  Indian civil date: 1943-12-23, Islamic: 1443-08-10 Shaʿbān, 🌌🌞: सं- कुम्भः, तं- मासि, म- कुंभं, प- फग्गण, अ- फागुन संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — शिशिरऋतुः उत्तरायणम् 🌌🌞सौरमानम् — शिशिरऋतुः उत्तरायणम् 🌛चान्द्रमानम् — शिशिरऋतुः फाल्गुनः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-एकादशी►12:05; शुक्ल-द्वादशी► 🌌🌛नक्षत्रम् — पुष्यः►22:06; आश्रेषा► (कर्कटः) 🌌🌞सौर-नक्षत्रम् — पूर्वप्रोष्ठपदा►  राशि-मासः — माघः►24:00*; फाल्गुनः►      🌛&#43;🌞योगः — अतिगण्डः►28:11*; सुकर्म► २|🌛-🌞|करणम् — विष्टिः►12:05; बवः►24:44*; बालवः► 🌌🌛- चन्द्राष्टम-राशिः—धनुः    🌞-🪐 मूढग्रहाः - गुरुः (6."/>
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -321,26 +315,7 @@
 <hr>
 <h2 id="उतसव">उत्सवाः</h2>
 <ul>
-<li>कपालीश्वरयात्रा, नवशेर-युद्धम् #१९९, रंगभरी एकादशी, वेङ्कटाचले प्लवोत्सवः, शिवराजः कुतुब्शाहम् मिलति #३४५, सर्व-आमलकी-एकादशी, सावित्री-व्रतम्, हरिवासरः</li>
-</ul>
-<h3 id="हरवसर">हरिवासरः</h3>
-<ul>
-<li>→18:26</li>
-</ul>
-<p>The first quarter of dvādaśī tithi is not suitable for breaking fast (pāraṇa), and is known as harivāsaraḥ. Break fast once harivāsaraḥ is over.</p>
-<p>द्वादश्याः प्रथमः पादो हरिवासरसंज्ञितः।<br>
-तमतिक्रम्य कुर्वीत पारणं विष्णुतत्परः॥</p>
-<p>निवेदन-मन्त्रः (कात्यायनः)&mdash;<br>
-अज्ञानतिमिरान्धस्य व्रतेनानेन केशव।<br>
-प्रसीद सुमुखो नाथ ज्ञानदृष्टिप्रदो भव॥</p>
-<p>वैद्यनाथदीक्षितीये तिथिनिर्णयकाण्डे विष्णुधर्मे&mdash;<br>
-असम्भाष्यांस्तु सम्भाष्य तुलस्यतसिकादलम्।<br>
-द्वादश्यामच्युतफलम् आगस्त्यं पत्रमेव वा।<br>
-आमलक्याः फलं वापि पारणे प्राश्य शुद्ध्यति॥</p>
-<h4 id="details">Details</h4>
-<ul>
-<li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml">Edit config file</a></li>
-<li>Tags: MonthlyVratam EkadashiVratam</li>
+<li>कपालीश्वरयात्रा, नवशेर-युद्धम् #१९९, मीन-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, रंगभरी एकादशी, वेङ्कटाचले प्लवोत्सवः, शिवराजः कुतुब्शाहम् मिलति #३४५, सर्व-आमलकी-एकादशी, सावित्री-व्रतम्</li>
 </ul>
 <h3 id="सवतर-वरतम">सावित्री-व्रतम्</h3>
 <p>Tradition in South India (especially Tamil Nadu), where all women perform this nōnbu praying for their husband&rsquo;s long life. This vratam was peformed by Savitri in the forest, following which she redeemed his life from Lord Yama.</p>
@@ -348,16 +323,29 @@
 <p>पत्युर् दीर्घायुष्यं कामयन्त्यः सनैवेद्यं सुपूजितं व्रत-सूत्रं किञ्चन +उपोष्य पत्न्यः स्वकण्ठेषु बन्धयन्ति।</p>
 <p>दोरं गृह्णामि सुभगे सहारिद्रं धराम्यहम्।<br>
 भर्तुरायुष्य-सिद्ध्यर्थं सुप्रीता भव सर्वदा॥</p>
-<h4 id="details-1">Details</h4>
+<h4 id="details">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/tamil/description_only/kAraDaiyAn2_nOn2bu.toml">Edit config file</a></li>
 <li>Tags: CommonFestivalsTamilnadu</li>
 </ul>
 <h3 id="कपलशवरयतर">कपालीश्वरयात्रा</h3>
-<h4 id="details-2">Details</h4>
+<h4 id="details-1">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-3/kapAlI_tEr.toml">Edit config file</a></li>
 <li>Tags: TamilnaduTempleFestivals</li>
+</ul>
+<h3 id="मन-रव-सङकरमण-षडशत-पणयकल">मीन-रवि-सङ्क्रमण-षडशीति-पुण्यकालः</h3>
+<p>Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.</p>
+<p>सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—<br>
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।<br>
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥<br>
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।<br>
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥<br>
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)</p>
+<h4 id="details-2">Details</h4>
+<ul>
+<li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml">Edit config file</a></li>
+<li>Tags: SunSankranti CommonFestivals</li>
 </ul>
 <h3 id="नवशर-यदधम-१९९">नवशेर-युद्धम् #१९९</h3>
 <p>Event occured on 1823-03-14 (gregorian).</p>
@@ -472,7 +460,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -484,7 +472,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

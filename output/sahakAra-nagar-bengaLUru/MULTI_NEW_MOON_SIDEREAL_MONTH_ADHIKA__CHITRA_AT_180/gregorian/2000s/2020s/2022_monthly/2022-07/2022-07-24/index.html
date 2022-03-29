@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -28,7 +28,7 @@
 <meta itemprop="name" content="2022-07-24">
 <meta itemprop="description" content="आषाढः-04-26 , वृषभः-रोहिणी🌛🌌 , कर्कटः-पुष्यः-04-08🌞🌌 , नभः-05-02🌞🪐 , भानुः  Indian civil date: 1944-05-02, Islamic: 1443-12-24 Ḏū al-Ḥijjah, 🌌🌞: सं- कर्कटः, तं- आडि, म- कर्क्कटकं, प- साओण, अ- शाओण संवत्सरः - शुभकृत् वर्षसङ्ख्या 🌛- शकाब्दः 1944, विक्रमाब्दः 2079, कलियुगे 5123    🪐🌞ऋतुमानम् — वर्षऋतुः दक्षिणायनम् 🌌🌞सौरमानम् — ग्रीष्मऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — ग्रीष्मऋतुः आषाढः   खचक्रस्थितिः  |🌞-🌛|तिथिः — कृष्ण-एकादशी►13:46; कृष्ण-द्वादशी► 🌌🌛नक्षत्रम् — रोहिणी►21:58; मृगशीर्षम्► (वृषभः) 🌌🌞सौर-नक्षत्रम् — पुष्यः►  राशि-मासः — आषाढः►      🌛&#43;🌞योगः — वृद्धिः►13:56; ध्रुवः► २|🌛-🌞|करणम् — बालवः►13:46; कौलवः►27:00*; तैतिलः► 🌌🌛- चन्द्राष्टम-राशिः—तुला    🌞-🪐 मूढग्रहाः - बुधः (-8.">
 
-<meta itemprop="wordCount" content="292">
+<meta itemprop="wordCount" content="224">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2022-07-24"/>
 <meta name="twitter:description" content="आषाढः-04-26 , वृषभः-रोहिणी🌛🌌 , कर्कटः-पुष्यः-04-08🌞🌌 , नभः-05-02🌞🪐 , भानुः  Indian civil date: 1944-05-02, Islamic: 1443-12-24 Ḏū al-Ḥijjah, 🌌🌞: सं- कर्कटः, तं- आडि, म- कर्क्कटकं, प- साओण, अ- शाओण संवत्सरः - शुभकृत् वर्षसङ्ख्या 🌛- शकाब्दः 1944, विक्रमाब्दः 2079, कलियुगे 5123    🪐🌞ऋतुमानम् — वर्षऋतुः दक्षिणायनम् 🌌🌞सौरमानम् — ग्रीष्मऋतुः दक्षिणायनम् 🌛चान्द्रमानम् — ग्रीष्मऋतुः आषाढः   खचक्रस्थितिः  |🌞-🌛|तिथिः — कृष्ण-एकादशी►13:46; कृष्ण-द्वादशी► 🌌🌛नक्षत्रम् — रोहिणी►21:58; मृगशीर्षम्► (वृषभः) 🌌🌞सौर-नक्षत्रम् — पुष्यः►  राशि-मासः — आषाढः►      🌛&#43;🌞योगः — वृद्धिः►13:56; ध्रुवः► २|🌛-🌞|करणम् — बालवः►13:46; कौलवः►27:00*; तैतिलः► 🌌🌛- चन्द्राष्टम-राशिः—तुला    🌞-🪐 मूढग्रहाः - बुधः (-8."/>
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -321,7 +315,7 @@
 <hr>
 <h2 id="उतसव">उत्सवाः</h2>
 <ul>
-<li>तिरुप्पाणाऴ्वार् तिरुनक्षत्तिरम्, देवी-पर्व-४, सर्व-कामिका-एकादशी, हरिवासरः</li>
+<li>तिरुप्पाणाऴ्वार् तिरुनक्षत्तिरम्, देवी-पर्व-४, सर्व-कामिका-एकादशी</li>
 </ul>
 <h3 id="दव-परव-४">देवी-पर्व-४</h3>
 <p>Observed on Kr̥ṣṇa-Dvādaśī tithi of Āṣāḍhaḥ (lunar) month (Āśvinaḥ/paraviddha).</p>
@@ -329,25 +323,6 @@
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/04/27/devi-parva-4.toml">Edit config file</a></li>
 <li>Tags: Devi Parva</li>
-</ul>
-<h3 id="हरवसर">हरिवासरः</h3>
-<ul>
-<li>→20:22</li>
-</ul>
-<p>The first quarter of dvādaśī tithi is not suitable for breaking fast (pāraṇa), and is known as harivāsaraḥ. Break fast once harivāsaraḥ is over.</p>
-<p>द्वादश्याः प्रथमः पादो हरिवासरसंज्ञितः।<br>
-तमतिक्रम्य कुर्वीत पारणं विष्णुतत्परः॥</p>
-<p>निवेदन-मन्त्रः (कात्यायनः)&mdash;<br>
-अज्ञानतिमिरान्धस्य व्रतेनानेन केशव।<br>
-प्रसीद सुमुखो नाथ ज्ञानदृष्टिप्रदो भव॥</p>
-<p>वैद्यनाथदीक्षितीये तिथिनिर्णयकाण्डे विष्णुधर्मे&mdash;<br>
-असम्भाष्यांस्तु सम्भाष्य तुलस्यतसिकादलम्।<br>
-द्वादश्यामच्युतफलम् आगस्त्यं पत्रमेव वा।<br>
-आमलक्याः फलं वापि पारणे प्राश्य शुद्ध्यति॥</p>
-<h4 id="details-1">Details</h4>
-<ul>
-<li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml">Edit config file</a></li>
-<li>Tags: MonthlyVratam EkadashiVratam</li>
 </ul>
 <h3 id="सरव-कमक-एकदश">सर्व-कामिका-एकादशी</h3>
 <p>The Krishna-paksha Ekadashi of āṣāḍha month is known as kāmikā-ēkādaśī.</p>
@@ -359,14 +334,14 @@
 प्रमादादथवाऽऽलस्याद्धरे केशव माधव।<br>
 व्रतस्यास्य च वै विघ्नो न भवेत्त्वत्प्रसादतः॥<br>
 &ndash;पद्मपुराणे</p>
-<h4 id="details-2">Details</h4>
+<h4 id="details-1">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kAmikA-EkAdazI.toml">Edit config file</a></li>
 <li>Tags: MonthlyVratam EkadashiVratam</li>
 </ul>
 <h3 id="तरपपणऴवर-तरनकषततरम">तिरुप्पाणाऴ्वार् तिरुनक्षत्तिरम्</h3>
 <p>Observed on Rōhiṇī nakshatra of Karkaṭaḥ (sidereal solar) month (Prātaḥ/paraviddha).</p>
-<h4 id="details-3">Details</h4>
+<h4 id="details-2">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr/sidereal_solar_month/nakshatra/04/04/tiruppANAzhvAr_tirunakSattiram.toml">Edit config file</a></li>
 <li>Tags: MahapurushaEvents AzhwarJayanti</li>
@@ -427,7 +402,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -439,7 +414,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

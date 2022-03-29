@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -28,7 +28,7 @@
 <meta itemprop="name" content="2022-01-14">
 <meta itemprop="description" content="पौषः-10-12 , वृषभः-रोहिणी🌛🌌 , मकरः-उत्तराषाढा-10-01🌞🌌 , सहस्यः-10-24🌞🪐 , शुक्रः  Indian civil date: 1943-10-24, Islamic: 1443-06-10 Jumādā ath-Thāniyah/ al-ʾĀkhirah, 🌌🌞: सं- मकरः, तं- तै, म- मकरं, प- माघ, अ- माघ संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — हेमन्तऋतुः उत्तरायणम् 🌌🌞सौरमानम् — हेमन्तऋतुः उत्तरायणम् 🌛चान्द्रमानम् — हेमन्तऋतुः पौषः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-द्वादशी►22:19; शुक्ल-त्रयोदशी► 🌌🌛नक्षत्रम् — रोहिणी►20:15; मृगशीर्षम्► (वृषभः) 🌌🌞सौर-नक्षत्रम् — उत्तराषाढा►  राशि-मासः — मार्गशीर्षः►14:06; पौषः►      🌛&#43;🌞योगः — शुक्लः►13:31; ब्रह्म► २|🌛-🌞|करणम् — बवः►08:56; बालवः►22:19; कौलवः► 🌌🌛- चन्द्राष्टम-राशिः—तुला    🌞-🪐 मूढग्रहाः - शुक्रः (8.">
 
-<meta itemprop="wordCount" content="1714">
+<meta itemprop="wordCount" content="1646">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2022-01-14"/>
 <meta name="twitter:description" content="पौषः-10-12 , वृषभः-रोहिणी🌛🌌 , मकरः-उत्तराषाढा-10-01🌞🌌 , सहस्यः-10-24🌞🪐 , शुक्रः  Indian civil date: 1943-10-24, Islamic: 1443-06-10 Jumādā ath-Thāniyah/ al-ʾĀkhirah, 🌌🌞: सं- मकरः, तं- तै, म- मकरं, प- माघ, अ- माघ संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — हेमन्तऋतुः उत्तरायणम् 🌌🌞सौरमानम् — हेमन्तऋतुः उत्तरायणम् 🌛चान्द्रमानम् — हेमन्तऋतुः पौषः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-द्वादशी►22:19; शुक्ल-त्रयोदशी► 🌌🌛नक्षत्रम् — रोहिणी►20:15; मृगशीर्षम्► (वृषभः) 🌌🌞सौर-नक्षत्रम् — उत्तराषाढा►  राशि-मासः — मार्गशीर्षः►14:06; पौषः►      🌛&#43;🌞योगः — शुक्लः►13:31; ब्रह्म► २|🌛-🌞|करणम् — बवः►08:56; बालवः►22:19; कौलवः► 🌌🌛- चन्द्राष्टम-राशिः—तुला    🌞-🪐 मूढग्रहाः - शुक्रः (8."/>
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -321,7 +315,7 @@
 <hr>
 <h2 id="उतसव">उत्सवाः</h2>
 <ul>
-<li>गोलाकान्दैल-हत्या #५८, तै-वॆळ्ळिक्किऴमै, तैत्तिरीय-उत्सर्गो रोहिण्याम्, पानीयपथे पराजितिर् हिन्दुकानाम् #२६१, पापनाशिनी-महाद्वादशी, मकर-ज्योतिः, मकर-सङ्क्रमण-पुण्यकालः, मकर-सङ्क्रान्तिः, मधुरै मीऩाक्षी कोयिलिल् कल् याऩैक्कु करुम्बु कोडुत्त लीलै, हरिवासरः</li>
+<li>गोलाकान्दैल-हत्या #५८, तै-वॆळ्ळिक्किऴमै, तैत्तिरीय-उत्सर्गो रोहिण्याम्, पानीयपथे पराजितिर् हिन्दुकानाम् #२६१, पापनाशिनी-महाद्वादशी, मकर-ज्योतिः, मकर-सङ्क्रमण-पुण्यकालः, मकर-सङ्क्रान्तिः, मधुरै मीऩाक्षी कोयिलिल् कल् याऩैक्कु करुम्बु कोडुत्त लीलै</li>
 </ul>
 <h3 id="गलकनदल-हतय-५८">गोलाकान्दैल-हत्या #५८</h3>
 <p>Event occured on 1964-01-14 (gregorian).</p>
@@ -331,27 +325,8 @@
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/14/golAkAndaila-hatyA.toml">Edit config file</a></li>
 <li>Tags:</li>
 </ul>
-<h3 id="हरवसर">हरिवासरः</h3>
-<ul>
-<li>→02:14</li>
-</ul>
-<p>The first quarter of dvādaśī tithi is not suitable for breaking fast (pāraṇa), and is known as harivāsaraḥ. Break fast once harivāsaraḥ is over.</p>
-<p>द्वादश्याः प्रथमः पादो हरिवासरसंज्ञितः।<br>
-तमतिक्रम्य कुर्वीत पारणं विष्णुतत्परः॥</p>
-<p>निवेदन-मन्त्रः (कात्यायनः)&mdash;<br>
-अज्ञानतिमिरान्धस्य व्रतेनानेन केशव।<br>
-प्रसीद सुमुखो नाथ ज्ञानदृष्टिप्रदो भव॥</p>
-<p>वैद्यनाथदीक्षितीये तिथिनिर्णयकाण्डे विष्णुधर्मे&mdash;<br>
-असम्भाष्यांस्तु सम्भाष्य तुलस्यतसिकादलम्।<br>
-द्वादश्यामच्युतफलम् आगस्त्यं पत्रमेव वा।<br>
-आमलक्याः फलं वापि पारणे प्राश्य शुद्ध्यति॥</p>
-<h4 id="details-1">Details</h4>
-<ul>
-<li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml">Edit config file</a></li>
-<li>Tags: MonthlyVratam EkadashiVratam</li>
-</ul>
 <h3 id="मधर-मऩकष-कयलल-कल-यऩकक-करमब-कडतत-लल">मधुरै मीऩाक्षी कोयिलिल् कल् याऩैक्कु करुम्बु कोडुत्त लीलै</h3>
-<h4 id="details-2">Details</h4>
+<h4 id="details-1">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/makara-saGkrAntiH/offset__00/madhurai_mIn2AkSI_kOyilil_kal_yAn2aikku_karumbu_kODutta_lIlai.toml">Edit config file</a></li>
 <li>Tags: TamilnaduTempleFestivals</li>
@@ -359,14 +334,14 @@
 <h3 id="मकर-जयत">मकर-ज्योतिः</h3>
 <p>Observed on day 1 of Makaraḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha).</p>
 <p>Darshan of Makara Jyoti in Sabarimala Ayyappa Temple.</p>
-<h4 id="details-3">Details</h4>
+<h4 id="details-2">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/temples/Kerala/sidereal_solar_month/day/10/01/makara-jyOtiH.toml">Edit config file</a></li>
 <li>Tags: KeralaTempleFestivals CommonFestivals</li>
 </ul>
 <h3 id="मकर-सङकरनत">मकर-सङ्क्रान्तिः</h3>
 <p>Observed on day 1 of Makaraḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha).</p>
-<h4 id="details-4">Details</h4>
+<h4 id="details-3">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/sidereal_solar_month/day/10/01/makara-saGkrAntiH.toml">Edit config file</a></li>
 <li>Tags: CommonFestivals SunSankranti</li>
@@ -379,7 +354,7 @@
 सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।<br>
 तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥<br>
 (स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)</p>
-<h4 id="details-5">Details</h4>
+<h4 id="details-4">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/makara-saGkramaNa-puNyakAlaH.toml">Edit config file</a></li>
 <li>Tags: SunSankranti CommonFestivals</li>
@@ -461,14 +436,14 @@
 <h5 id="abdali">Abdali</h5>
 <p>Abdali retreated back to Afghanistan. Had Abdali not fled India, he would have to contend against Maratha army of 100,000 Warriors under Raghunathrao &amp; Peshwa Nanasaheb, 20,000 Gardés under General De Bussy himself, 10,000 Nagpur Bargirs under Senasahebsubah Janojiraje alongwith 15,000 promised Mughal Nizam troopers!</p>
 <p>Abdali himself died a brutal death due to his gangrenous maggot-infested nasal infection.</p>
-<h4 id="details-6">Details</h4>
+<h4 id="details-5">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/14/pAnIyapathe_parAjitir_hindukAnAm.toml">Edit config file</a></li>
 <li>Tags:</li>
 </ul>
 <h3 id="पपनशन-महदवदश">पापनाशिनी-महाद्वादशी</h3>
 <p>Dvadashi tithi, combined with Rohini nakshatra.</p>
-<h4 id="details-7">Details</h4>
+<h4 id="details-6">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/pApanAzinI~mahAdvAdazI.toml">Edit config file</a></li>
 <li>Tags: RareDays Combinations</li>
@@ -479,14 +454,14 @@
 <p>तैषीपक्षस्य रोहिण्यां पौर्णमास्यां वोत्सर्गः ८<br>
 अभिप्यन्ते +++(=प्रार्थयन्ते [स्नानादिकं सहैव कर्तुं])+++ वान्योन्यम् १६</p>
 <p>… एवं पारायण+++(=यथारुच्यध्ययनमिति केचित्)+++समाप्तौ च - काण्डादि दूर्वारोपणोदधि-धावनवर्जम् २४</p>
-<h4 id="details-8">Details</h4>
+<h4 id="details-7">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/04/taittirIya-utsargo_rohiNyAm.toml">Edit config file</a></li>
 <li>Tags: CommonFestivals</li>
 </ul>
 <h3 id="त-वळळककऴम">तै-वॆळ्ळिक्किऴमै</h3>
 <p>Very widely celebrated in Tamil Nadu temples, Fridays in the month of tai are special for propitiating Shakti Devi. At homes, there is also a common practice of māviḷakku, lighting ghee lamps in flour.</p>
-<h4 id="details-9">Details</h4>
+<h4 id="details-8">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/tamil/description_only/tai~veLLikkizhamai.toml">Edit config file</a></li>
 <li>Tags: MonthWeekdayFestivals</li>
@@ -547,7 +522,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -559,7 +534,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

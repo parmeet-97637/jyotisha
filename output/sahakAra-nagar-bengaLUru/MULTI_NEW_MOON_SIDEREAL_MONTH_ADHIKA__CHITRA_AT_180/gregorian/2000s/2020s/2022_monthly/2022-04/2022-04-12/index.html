@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -329,7 +323,7 @@
 <p>Event occured on 1679-04-12 (gregorian). Julian date was converted to Gregorian in this reckoning.</p>
 <p>On this day, Awrangzeb reimposed the discriminatory Jazia tax on Hindus.</p>
 <h4 id="translated-order">Translated order</h4>
-<p>As all the arms of the religious Emperor (Aurangzeb) were directed to the spreading of the law of Islam and the overthrow of the practices of the infidels he issued orders to the high diwani officers that from 1st Rabi ul awwal, in obedience to the Quranic injuction &lsquo;till they pay commutation money (jazia) with the hand in humility&rsquo; and in agreement with the canonical traditions, jazia should be collected from the infidels of the capital and the provinces.</p>
+<p>As all the arms of the religious Emperor (Aurangzeb) were directed to the spreading of the law of Islam and the overthrow of the practices of the infidels he issued orders to the high diwani officers that from 1st Rabi ul awwal, in obedience to the Quranic injuction &rsquo;till they pay commutation money (jazia) with the hand in humility&rsquo; and in agreement with the canonical traditions, jazia should be collected from the infidels of the capital and the provinces.</p>
 <h5 id="original">Original</h5>
 <p>व चूं हमगी हिम्मते हक़ तवियत ए खिदेव ए दीनपरवर ए शरीअत-गुस्तर मसरुफ ए तर्वीज़ ए शराई ए इस्लाम व तख़रीब ए  मरासिम ए काफ़र व झिलाम अस्त ब-दिवानियान ए इजाम हुक्म ए क़ज़ाइमज़ा शरफ़ सुदूर याफ़्त अज़ घुर्रत ए माह मजकूर मुताबिक़ ए फ़रमान ए वाजिब अलाजआन  ए &ldquo;हत्ता युतु अल-जिज़याता अन यादिन व हम साघिरूना व मुवाफ़िक़ ए रिवायत ए शरिया अज़ ज़िम्मियान ए  हुजूर व सुबाजात जिज़िया बगिरन्द&rdquo;</p>
 <p>Persian text in Maasir-i-Alamgiri, pg.174</p>
@@ -447,7 +441,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -459,7 +453,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>

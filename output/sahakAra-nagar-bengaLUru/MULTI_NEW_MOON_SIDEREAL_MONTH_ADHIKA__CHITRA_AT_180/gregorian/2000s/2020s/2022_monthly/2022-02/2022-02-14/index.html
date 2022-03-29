@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.95.0" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -28,7 +28,7 @@
 <meta itemprop="name" content="2022-02-14">
 <meta itemprop="description" content="माघः-11-13 , कर्कटः-पुनर्वसुः🌛🌌 , कुम्भः-श्रविष्ठा-11-02🌞🌌 , तपः-11-26🌞🪐 , सोमः  Indian civil date: 1943-11-25, Islamic: 1443-07-12 Rajab, 🌌🌞: सं- कुम्भः, तं- मासि, म- कुंभं, प- फग्गण, अ- फागुन संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — शिशिरऋतुः उत्तरायणम् 🌌🌞सौरमानम् — शिशिरऋतुः उत्तरायणम् 🌛चान्द्रमानम् — शिशिरऋतुः माघः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-त्रयोदशी►20:28; शुक्ल-चतुर्दशी► 🌌🌛नक्षत्रम् — पुनर्वसुः►11:51; पुष्यः► (कर्कटः) 🌌🌞सौर-नक्षत्रम् — श्रविष्ठा►  राशि-मासः — माघः►      🌛&#43;🌞योगः — आयुष्मान्►21:24; सौभाग्यः► २|🌛-🌞|करणम् — कौलवः►07:39; तैतिलः►20:28; गरः► 🌌🌛- चन्द्राष्टम-राशिः—धनुः    🌞-🪐 मूढग्रहाः - शनैश्चरः (8.">
 
-<meta itemprop="wordCount" content="609">
+<meta itemprop="wordCount" content="1076">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="2022-02-14"/>
 <meta name="twitter:description" content="माघः-11-13 , कर्कटः-पुनर्वसुः🌛🌌 , कुम्भः-श्रविष्ठा-11-02🌞🌌 , तपः-11-26🌞🪐 , सोमः  Indian civil date: 1943-11-25, Islamic: 1443-07-12 Rajab, 🌌🌞: सं- कुम्भः, तं- मासि, म- कुंभं, प- फग्गण, अ- फागुन संवत्सरः - प्लवः वर्षसङ्ख्या 🌛- शकाब्दः 1943, विक्रमाब्दः 2078, कलियुगे 5122    🪐🌞ऋतुमानम् — शिशिरऋतुः उत्तरायणम् 🌌🌞सौरमानम् — शिशिरऋतुः उत्तरायणम् 🌛चान्द्रमानम् — शिशिरऋतुः माघः   खचक्रस्थितिः  |🌞-🌛|तिथिः — शुक्ल-त्रयोदशी►20:28; शुक्ल-चतुर्दशी► 🌌🌛नक्षत्रम् — पुनर्वसुः►11:51; पुष्यः► (कर्कटः) 🌌🌞सौर-नक्षत्रम् — श्रविष्ठा►  राशि-मासः — माघः►      🌛&#43;🌞योगः — आयुष्मान्►21:24; सौभाग्यः► २|🌛-🌞|करणम् — कौलवः►07:39; तैतिलः►20:28; गरः► 🌌🌛- चन्द्राष्टम-राशिः—धनुः    🌞-🪐 मूढग्रहाः - शनैश्चरः (8."/>
@@ -36,7 +36,6 @@
       
     
 
-    <script src="/jyotisha/webpack_dist/dirTree-bundle.js"></script>
     <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
@@ -65,12 +64,7 @@
 </script>
 
 
-    <script src="/jyotisha/webpack_dist/main-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/search-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/utils-bundle.js"></script>
-<script src="/jyotisha/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
 
 
 
@@ -152,7 +146,7 @@
         </div>
         <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
           ✍
-          <select id="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+          <select id="transliterationDropdown" size="1" onchange="module_uiLib.default.content.updateTransliteration()">
             <optgroup label="🌍">
               <option value="iso">āISO</option>
               <option value="cyrillic">пу</option>
@@ -185,15 +179,15 @@
             </optgroup>
           </select>
           🗨:
-          <select id="commentStyleDropdown" size="1" onchange="module_main.default.updateCommentStyleFromDropdown()">
+          <select id="commentStyleDropdown" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
             <option value="on">✔</option>
             <option value="hidden">✗</option>
           </select>
-          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
-          <div><a id="printButton" class="btn btn-secondary" onclick="module_main.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('expandAll', 'true')">↕️️</a></div>
+          <div><a id="printButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamAndGo('printLayout', 'on')">🖨️️</a></div>
         </div>
         <div class="row col  d-flex justify-content-center">
-          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_main.default.handleSpeakToggle()">🎧️</a></div>
+          <div><a id="speakerButton" class="btn btn-secondary" onclick="module_uiLib.default.content.handleSpeakToggle()">🎧️</a></div>
           <button id="speakerPauseButton" class="btn btn-secondary">⏸</button>
         </div>
         <div class="row col  d-flex justify-content-center">
@@ -231,10 +225,10 @@
       <aside class="col-md-3 card border noPrint " id="sidebar">
           <div id="fastSearch">
               <datalist id="pageDataList"></datalist>
-              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_search.pageLoader()">
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
           </div>
           <details open  class="bg-light-gray" >
-              <summary id="sidebarToggleLink" onclick="module_main.default.sidebarToggleHandler()">
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
             Menu
               </summary>
               <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
@@ -321,7 +315,7 @@
 <hr>
 <h2 id="उतसव">उत्सवाः</h2>
 <ul>
-<li>अशेरि-दुर्ग-जयः #२८३, तानाजी-वीर-गतिः #३५२, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 10म् नाळ्—तेर्, बाजीराव उदयपुरे #२८७, वराह-कल्पादिः, सोम-प्रदोष-व्रतम्</li>
+<li>अशेरि-दुर्ग-जयः #२८३, कोयम्पुत्तूरु-विस्फोटः #२४, तानाजी-वीर-गतिः #३५२, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 10म् नाळ्—तेर्, बाजीराव उदयपुरे #२८७, वराह-कल्पादिः, सोम-प्रदोष-व्रतम्</li>
 </ul>
 <h3 id="अशर-दरग-जय-२८३">अशेरि-दुर्ग-जयः #२८३</h3>
 <p>Event occured on 1739-02-14 (gregorian).</p>
@@ -342,6 +336,22 @@
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/03/bhAjI-rAva_udayapure.toml">Edit config file</a></li>
 <li>Tags:</li>
 </ul>
+<h3 id="कयमपततर-वसफट-२४">कोयम्पुत्तूरु-विस्फोटः #२४</h3>
+<p>Event occured on 1998-02-14 (gregorian).</p>
+<p>On this day, Islamist terrorsts belonging to Al Umma, led by S. A. Basha, triggered a well planned serial bombing (12 bomb attacks in 11 places, all within a 12 kilometres (7.5 mi) radius, 13:30–15:40), killing 58-76 people and injuring 200 others.</p>
+<h4 id="events">Events</h4>
+<p>The explosives used were found to be gelatin sticks activated by timer devices and were concealed in cars, motorcycles, bicycles, sideboxes of two-wheelers, denim and rexin bags, and fruit carts. Several bombs that failed to detonate were defused by bomb disposal squads. 3 human bombs named Amanuallah, Melapalayam Amjath Ali and Rafique alias Shanmugam, were targeting L.K. Advani, but could not penetrate the security cardon.</p>
+<h4 id="context-1">Context</h4>
+<p>Coimbatore was religiously polarized. In the period between 1989 and 1997, 42 Hindus had been murdered in Coimbatore region by Islamists. Some were random killing of Hindus to ‘instill fear’ like the killing of five Hindus in one day (02-09-1997) and many were targeted executions of Hindu activists. Resolutely ignoring all IB warnings on 28th January 1997 Badsha and four others were released from Coimbatore jail by DMK regime following its decision to withdraw the TADA cases. Al-Ummah throwed pipe-bombs at director Mani Ratnam’s house as a warning against the films he directed ‘Roja’ and ‘Bombay’. (Source: Swarajya mag article)</p>
+<p>1997 Coimbatore riots occurred between 29 November 1997 and 1 December 1997 - started by  murder of a police constable allegedly by some Muslim youth over a dispute of detention of Al-Ummah functionaries. 18 Muslims and 2 Hindus had died. Al Ummah had used the videotapes of the deceased during the riots to mobilise sympathy and garner financial support from Muslim countries</p>
+<h4 id="aftermath">Aftermath</h4>
+<p>People belonging to Al Ummah, Jihad Committee and the Tamil Nadu Muslim Munnetra Kazhagam (TMMK) were arrested in a State-wide crackdown. In Coimbatore district, 326 Hindus and 202 Muslims – were detained as a precautionary measure. During September 2002, Imam Ali and four others, suspected to be involved in the blasts were killed in a police encounter in Bangalore. In 2007, out of the 14 accused, 13 were found guilty of blasts and were convicted - Madani was the only one acquitted. On 17 November 2009, nine members of Al Ummah, convicted in the blasts were released from jail for their good conduct, 16 months short of their full sentence on the occasion of 100th birth anniversary of Arignar Anna, the founder of Dravida Munnetra Kazhagam (DMK).</p>
+<p>For days after the explosions, the city of Coimbatore looked like a town deserted; business establishments, shops and roadside stalls remained closed and few people ventured out. Hotels refused admission to guests. The Bharatiya Janata Party candidate C.P. Radhakrishnan won by a record margin of over 1,00,000 votes in the 1998 Lok Sabha elections.</p>
+<h4 id="details-2">Details</h4>
+<ul>
+<li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/14/koyamputtUru-visphoTaH.toml">Edit config file</a></li>
+<li>Tags:</li>
+</ul>
 <h3 id="सम-परदष-वरतम">सोम-प्रदोष-व्रतम्</h3>
 <ul>
 <li>18:21→19:54</li>
@@ -349,7 +359,7 @@
 <p>Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala. Pradosha vratam is even more special, when if falls on a Monday/Saturday.</p>
 <p>प्रदोषे  शिवपूजां  तु  ये  कुर्याच्छ्रद्धया  युताः।<br>
 न  भवेत्  तस्य  दारिद्र्यं  जन्मान्तरशतेष्वपि॥</p>
-<h4 id="details-2">Details</h4>
+<h4 id="details-3">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml">Edit config file</a></li>
 <li>Tags: MonthlyVratam PradoshaVratam</li>
@@ -358,13 +368,13 @@
 <p>Event occured on 1670-02-14 (gregorian). Julian date was converted to Gregorian in this reckoning.</p>
 <p>tANAji mAlsure (aged over 70!) captured konDAna-durga, scaling the wall at night (using a trained monitor lizard called yashvantI according to legend) and sacrificed his life fighting Aurangzeb&rsquo;s servant udaya-bhAna-rAthoD. Overwhelmed attackers managed to capture the fort after they let further reinforcements in.</p>
 <p>shivAjI exclaimed: &ldquo;gaD Ala pan sinh gela&rdquo; (The fort has been captured but we lost the lion). Fort was renamed simhagad in his honor.</p>
-<h4 id="details-3">Details</h4>
+<h4 id="details-4">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/04/tAnAjI-vIra-gatiH.toml">Edit config file</a></li>
 <li>Tags:</li>
 </ul>
 <h3 id="तरचचनदर-मरगऩ-मचत-तरवऴ-10म-नळतर">तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 10म् नाळ्—तेर्</h3>
-<h4 id="details-4">Details</h4>
+<h4 id="details-5">Details</h4>
 <ul>
 <li><a href="https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-2/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%2310%23%23m_nAL%E2%80%94tEr.toml">Edit config file</a></li>
 <li>Tags: TamilnaduTempleFestivals</li>
@@ -383,7 +393,7 @@
 नवमी मार्गशीर्षस्य सप्तैताः संस्मराम्यहम्।<br>
 कल्पानामादयो ह्येता दत्तस्याक्षय्यकारकाः॥<br>
 &mdash;मत्स्यपुराणे</p>
-<h4 id="details-5">Details</h4>
+<h4 id="details-6">Details</h4>
 <ul>
 <li>References
 <ul>
@@ -449,7 +459,7 @@
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 27 16:28:06 UTC. (<a href="http://google.com/search?q=16%3a28%3a06%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2022 Mar 29 05:04:17 UTC. (<a href="http://google.com/search?q=05%3a04%3a17%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
@@ -461,7 +471,7 @@
     
     
     
-    module_main.default.onDocumentReadyTasks();
+    module_uiLib.onDocumentReadyTasks();
   </script>
   
 </html>
